@@ -1,17 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-image: url(./components/cover/fondo/TemasYLecciones.jpg);
+body {
+  background-image: url(./images/Login.jpg);
   background-repeat: no-repeat;
-  background-position: 0% 0%;
-  height: 10px;
-  background-attachment: fixed;
   background-size: cover;
+  background-attachment: fixed;
+  background-position: absolute;
 }
-/* .TemasYLecciones {
-  height: auto;
-  width: auto;
-  max-height: 100px;
-  max-width: 100px;
-} */
+.title {
+  color: black;
+  text-align: center;
+}
+.temas {
+  color: black;
+  font-size: 30px;
+}
