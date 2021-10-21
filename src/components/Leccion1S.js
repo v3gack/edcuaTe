@@ -9,41 +9,43 @@ import {useHistory} from "react-router-dom";
         const [dropDown, setDropdown] = useState(false);
         const abriCerrar = () => {setDropdown(!dropDown)}
         let history = useHistory();
-        return (
-            <div className={styles.menu}> 
-                <br /><pre className = {styles.tituloSL2}>                                TEMA SUMA - LECION 2</pre>
-                <button className = {styles.botonAtras} onClick ={
-                ()=>{
-                    history.push("/Tab1");
-                }
-            }>
-                Atras
+       return (
+                 <div className={styles.menu}> 
+                 <h1 className={styles.tituloSL2}>TEMA SUMA - LECCION 2</h1>
+                 <button className = {styles.botonAtras} onClick ={
+                 ()=>{
+                     history.push("/Tab1");
+                 }         
+             }>
+                🠔atras
             </button>
-             <Dropdown isOpen={!dropDown} toggle={abriCerrar} direction="right">
+                  
+            <Dropdown isOpen={!dropDown} toggle={abriCerrar} direction="right">
             
-                <DropdownToggle caret className={styles.BotonDrop} > 
-                    VIDEOS 
-                </DropdownToggle >
+            <DropdownToggle caret className={styles.BotonDrop} > 
+                VIDEOS 
+            </DropdownToggle >
             
-                <DropdownMenu className="item"> 
-                    <button className ={styles.botonVideoSuma2} onClick ={
-                        ()=>{
-                        history.push("/Tab2");
-                        }
-                    }> Video1
-                    </button>
-                    <button className ={styles.botonVideoSuma2} onClick ={
-                         ()=>{
-                        history.push("/Tab2");
-                         }
-                    }> Video2
-                    </button>
-                    <button className ={styles.botonVideoSuma2} onClick ={
-                         ()=>{
-                          history.push("/Tab2");
-                         }
-                        }> Video3
-                    </button>
+            <DropdownMenu className={styles.desplegable}> 
+            
+                <button className ={styles.botonVideoSuma2} onClick ={
+                    ()=>{
+                    history.push("/Tab2");
+                    }
+                }> Video1
+                </button>
+                <button className ={styles.botonVideoSuma2} onClick ={
+                     ()=>{
+                    history.push("/Tab2");
+                     }
+                }> Video2
+                </button>
+                <button className ={styles.botonVideoSuma2} onClick ={
+                     ()=>{
+                      history.push("/Tab2");
+                     }
+                    }> Video3
+                </button>
               {/* <DropdownItem>Video 1</DropdownItem>
               <DropdownItem>Video 2</DropdownItem>
               <DropdownItem>Video 3</DropdownItem>
