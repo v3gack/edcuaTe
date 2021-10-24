@@ -1,0 +1,16 @@
+body {
+  background-image: url(./images/Login.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  /* display: block; */
+}
+.title {
+  color: black;
+  text-align: center;
+}
+.temas {
+  color: black;
+  font-size: 30px;
+}
