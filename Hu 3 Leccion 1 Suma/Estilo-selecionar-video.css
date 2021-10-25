@@ -23,6 +23,7 @@ body {
 
 #ventana anterior{
 	float: right;
+	margin: 5px;
 }
 
 .video-slider {
