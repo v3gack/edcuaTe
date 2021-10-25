@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< Updated upstream:src/components/Tab2.js
 import styles from './App.module.css';
 import {useHistory} from "react-router-dom";
 function Tab2(){
@@ -32,5 +33,11 @@ function Tab2(){
             </button>
     </div>      
     );
+=======
+function videodiv1(){
+   return  (<div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PCRCrdJbaCM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>);
+>>>>>>> Stashed changes:src/components/videodiv1.js
 }
-export default Tab2;
+export default videodiv1;

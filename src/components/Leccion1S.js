@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem} from 'reactstrap';
+import { Dropdown, DropdownToggle, DropdownMenu,} from 'reactstrap';
 import styles from './App.module.css';
 import'bootstrap/dist/css/bootstrap.min.css'; 
 
@@ -11,7 +11,11 @@ import {useHistory} from "react-router-dom";
         let history = useHistory();
        return (
                  <div className={styles.menu}> 
+<<<<<<< Updated upstream
                  <h1 className={styles.tituloSL2}>TEMA SUMA - LECCION 1</h1>
+=======
+                 <h1 className={styles.tituloSL2}>SUMA - LECCIÓN 1</h1>
+>>>>>>> Stashed changes
                  <button className = {styles.botonAtras} onClick ={
                  ()=>{
                      history.push("/Tab1");
@@ -30,19 +34,31 @@ import {useHistory} from "react-router-dom";
             
                 <button className ={styles.botonVideoSuma2} onClick ={
                     ()=>{
+<<<<<<< Updated upstream
                     history.push("/Leccion1sv1");
+=======
+                    history.push("/videosuma1");
+>>>>>>> Stashed changes
                     }
                 }> Video1
                 </button>
                 <button className ={styles.botonVideoSuma2} onClick ={
                      ()=>{
+<<<<<<< Updated upstream
                     history.push("/Leccion1sv2");
+=======
+                    history.push("/videosuma2");
+>>>>>>> Stashed changes
                      }
                 }> Video2
                 </button>
                 <button className ={styles.botonVideoSuma2} onClick ={
                      ()=>{
+<<<<<<< Updated upstream
                       history.push("/Leccion1sv3");
+=======
+                      history.push("/videosuma3");
+>>>>>>> Stashed changes
                      }
                     }> Video3
                 </button>

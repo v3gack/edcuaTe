@@ -30,7 +30,11 @@ import {useHistory} from "react-router-dom";
             
                 <button className ={styles.botonVideoSuma2} onClick ={
                     ()=>{
+<<<<<<< Updated upstream
                     history.push("/Tab2S3");
+=======
+                    history.push("/Tab2");
+>>>>>>> Stashed changes
                     }
                 }> Video1
                 </button>
