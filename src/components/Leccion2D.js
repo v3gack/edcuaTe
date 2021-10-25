@@ -11,11 +11,7 @@ import {useHistory} from "react-router-dom";
         let history = useHistory();
        return (
                  <div className={styles.menu}> 
-<<<<<<< Updated upstream
                  <h1 className={styles.tituloSL2}>TEMA DIVISION - LECCION 2</h1>
-=======
-                 <h1 className={styles.tituloSL2}>TEMA DIVISIÓN - LECCIÓN 2</h1>
->>>>>>> Stashed changes
                  <button className = {styles.botonAtras} onClick ={
                  ()=>{
                      history.push("/Tab1");
@@ -34,31 +30,19 @@ import {useHistory} from "react-router-dom";
             
                 <button className ={styles.botonVideoSuma2} onClick ={
                     ()=>{
-<<<<<<< Updated upstream
-                    history.push("/Tab2");
-=======
-                    history.push("/videodiv21");
->>>>>>> Stashed changes
+                    history.push("/Leccion2dv1");
                     }
                 }> Video1
                 </button>
                 <button className ={styles.botonVideoSuma2} onClick ={
                      ()=>{
-<<<<<<< Updated upstream
-                    history.push("/Tab2");
-=======
-                    history.push("/videodiv22");
->>>>>>> Stashed changes
+                    history.push("/Leccion2dv2");
                      }
                 }> Video2
                 </button>
                 <button className ={styles.botonVideoSuma2} onClick ={
                      ()=>{
-<<<<<<< Updated upstream
-                      history.push("/Tab2");
-=======
-                      history.push("/videodiv23");
->>>>>>> Stashed changes
+                      history.push("/Leccion2dv3");
                      }
                     }> Video3
                 </button>

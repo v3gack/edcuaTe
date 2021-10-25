@@ -1,7 +1,0 @@
-import React from "react";
-function videosuma1(){
-   return  (<div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dxBUiU0J9sg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>);
-}
-export default videosuma1;

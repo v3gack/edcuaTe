@@ -23,33 +23,21 @@ function Tab1() {
             </button>
             <button className = {styles.boton2} onClick ={
                 ()=>{
-<<<<<<< Updated upstream
                     history.push("/Leccion2S");
-=======
-                    history.push("/Leccion2");
->>>>>>> Stashed changes
                 }
             }>
                 Leccion 2 +
             </button>
             <button className = {styles.boton3} onClick ={
                 ()=>{
-<<<<<<< Updated upstream
                     history.push("/Leccion3S");
-=======
-                    history.push("/Leccion3");
->>>>>>> Stashed changes
                 }
             }>
                 Leccion 3 +
             </button>
             <button className = {styles.boton4} onClick ={
                 ()=>{
-<<<<<<< Updated upstream
                     history.push("/Leccion4S");
-=======
-                    history.push("/Leccion4");
->>>>>>> Stashed changes
                 }
             }>
                 Leccion 4 +

@@ -37,7 +37,7 @@
   text-align: center;
   position: absolute;
   justify-content: center;
-  top: 50%;
+  top: 40%;
   left: 6%;
 }
 .boton3 {
@@ -85,7 +85,7 @@
   text-align: center;
   position: absolute;
   justify-content: center;
-  top: 50%;
+  top: 40%;
   left: 27%;
 }
 .boton7 {
@@ -133,7 +133,7 @@
   text-align: center;
   position: absolute;
   justify-content: center;
-  top: 50%;
+  top: 40%;
   left: 54%;
 }
 .boton11 {
@@ -161,7 +161,7 @@
   left: 54%;
 }
 .boton13 {
-  background-color: rgb(56, 120,  50);
+  background-color: rgba(97, 131, 223, 0.993);
   border: 2px solid black;
   padding: 15px 50px;
   display: flex;
@@ -173,7 +173,7 @@
   left: 85%;
 }
 .boton14 {
-  background-color: rgb(56, 120,  50);
+  background-color: rgba(97, 131, 223, 0.993);
   border: 2px solid black;
   padding: 15px 50px;
   display: flex;
@@ -181,11 +181,11 @@
   text-align: center;
   position: absolute;
   justify-content: center;
-  top: 50%;
+  top: 40%;
   left: 85%;
 }
 .boton15 {
-  background-color: rgb(56, 120,  50);
+  background-color: rgba(97, 131, 223, 0.993);
   border: 2px solid black;
   padding: 15px 50px;
   display: flex;
@@ -197,7 +197,7 @@
   left: 85%;
 }
 .boton16 {
-  background-color: rgb(56, 120,  50);
+  background-color: rgba(97, 131, 223, 0.993);
   border: 2px solid black;
   padding: 15px 50px;
   display: flex;
@@ -242,6 +242,96 @@
 }
 
 @media(max-width:1024px){
+  .temas {
+    color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+    align-items: flex-start;
+    font-size: 15px;
+  }
+  .boton1 {
+    padding: 15px 20px;
+    top: 25%;
+    left: 2%;
+  }
+  .boton2 {
+    padding: 15px 20px;
+    top: 40%;
+    left: 2%;
+  }
+  .boton3 {
+    padding: 15px 20px;
+    top: 55%;
+    left: 2%;
+  }
+  .boton4 {
+    padding: 15px 20px;
+    top: 70%;
+    left: 2%;
+  }
+  .boton5 {
+    padding: 15px 20px;
+    top: 25%;
+    left: 20%;
+  }
+  .boton6 {
+    padding: 15px 20px;
+    top: 40%;
+    left: 20%;
+  }
+  .boton7 {
+    padding: 15px 20px;
+    top: 55%;
+    left: 20%;
+  }
+  .boton8 {
+    padding: 15px 20px;
+    top: 70%;
+    left: 20%;
+  }
+  .boton9 {
+    padding: 15px 50px;
+    top: 25%;
+    left: 45%;
+  }
+  .boton10 {
+    padding: 15px 50px;
+    top: 40%;
+    left: 45%;
+  }
+  .boton11 {
+    padding: 15px 50px;
+    top: 55%;
+    left: 45%;
+  }
+  .boton12 {
+    padding: 15px 50px;
+    top: 70%;
+    left: 45%;
+  }
+  .boton13 {
+    padding: 15px 40px;
+    top: 25%;
+    left: 78%;
+  }
+  .boton14 {
+    padding: 15px 40px;
+    top: 40%;
+    left: 78%;
+  }
+  .boton15 {
+    padding: 15px 40px;
+    top: 55%;
+    left: 78%;
+  }
+  .boton16 {
+    padding: 15px 40px;
+    top: 70%;
+    left: 78%;
+  }
   .videoAnterior {
     padding: 35px 35px;
     top: 50%;
@@ -637,51 +727,51 @@
     align-items: flex-start;
   }
   .temas h2 {
-    font-size: 15px;
-    padding: 20px;
+    font-size: 18px;
+    padding: 20px 30px;
   }
   .temas h3 {
-    font-size: 15px;
-    padding: 20px;
+    font-size: 18px;
+    padding: 20px 30px;
   }
   .boton1 {
     padding: 5px 5px;
-    top: 20%;
+    top: 15%;
     left: 6%;
   }
   .boton2 {
     padding: 5px 5px;
-    top: 28%;
+    top: 23%;
     left: 6%;
   }
   .boton3 {
     padding: 5px 5px;
-    top: 36%;
+    top: 31%;
     left: 6%;
   }
   .boton4 {
     padding: 5px 5px;
-    top: 44%;
+    top: 39%;
     left: 6%;
   }
   .boton5 {
     padding: 5px 5px;
-    top: 20%;
+    top: 15%;
     left: 60%;
   }
   .boton6 {
     padding: 5px 5px;
-    top: 28%;
+    top: 23%;
     left: 60%;
   }
   .boton7 {
     padding: 5px 5px;
-    top: 36%;
+    top: 31%;
     left: 60%;
   }
   .boton8 {
     padding: 5px 5px;
-    top: 44%;
+    top: 39%;
     left: 60%;
   }
   .boton9 {
@@ -740,6 +830,7 @@
     left: 5%;
   }
 }
+
 @media (max-width: 375px) {
   .title {
     color: black;
@@ -752,55 +843,55 @@
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    height: 550px;
+    height: 560px;
     align-items: flex-start;
   }
   .temas h2 {
     font-size: 15px;
-    padding: 20px;
+    padding: 40px;
   }
   .temas h3 {
     font-size: 15px;
-    padding: 20px;
+    padding: 40px;
   }
   .boton1 {
     padding: 5px 5px;
-    top: 20%;
+    top: 15%;
     left: 6%;
   }
   .boton2 {
     padding: 5px 5px;
-    top: 28%;
+    top: 23%;
     left: 6%;
   }
   .boton3 {
     padding: 5px 5px;
-    top: 36%;
+    top: 31%;
     left: 6%;
   }
   .boton4 {
     padding: 5px 5px;
-    top: 44%;
+    top: 39%;
     left: 6%;
   }
   .boton5 {
     padding: 5px 5px;
-    top: 20%;
+    top: 15%;
     left: 60%;
   }
   .boton6 {
     padding: 5px 5px;
-    top: 28%;
+    top: 23%;
     left: 60%;
   }
   .boton7 {
     padding: 5px 5px;
-    top: 36%;
+    top: 31%;
     left: 60%;
   }
   .boton8 {
     padding: 5px 5px;
-    top: 44%;
+    top: 39%;
     left: 60%;
   }
   .boton9 {

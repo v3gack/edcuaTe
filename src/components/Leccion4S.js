@@ -30,19 +30,19 @@ import {useHistory} from "react-router-dom";
             
                 <button className ={styles.botonVideoSuma2} onClick ={
                     ()=>{
-                    history.push("/Tab2");
+                    history.push("/Leccion4sv1");
                     }
                 }> Video1
                 </button>
                 <button className ={styles.botonVideoSuma2} onClick ={
                      ()=>{
-                    history.push("/Tab2");
+                    history.push("/Leccion4sv2");
                      }
                 }> Video2
                 </button>
                 <button className ={styles.botonVideoSuma2} onClick ={
                      ()=>{
-                      history.push("/Tab2");
+                      history.push("/Leccion4sv3");
                      }
                     }> Video3
                 </button>
