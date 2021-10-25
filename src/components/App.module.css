@@ -5,7 +5,7 @@
 }
 .temas {
   color: black;
-  font-size: 30px;
+  font-size: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -19,7 +19,7 @@
 .boton1 {
   background-color: rgb(235, 138, 74);
   border: 2px solid black;
-  padding: 15px 40px;
+  padding: 15px 50px;
   display: flex;
   color: black;
   text-align: center;
@@ -31,19 +31,19 @@
 .boton2 {
   background-color: rgb(235, 138, 74);
   border: 2px solid black;
-  padding: 15px 40px;
+  padding: 15px 50px;
   display: flex;
   color: black;
   text-align: center;
   position: absolute;
   justify-content: center;
-  top: 40%;
+  top: 50%;
   left: 6%;
 }
 .boton3 {
   background-color: rgb(235, 138, 74);
   border: 2px solid black;
-  padding: 15px 40px;
+  padding: 15px 50px;
   display: flex;
   color: black;
   text-align: center;
@@ -55,7 +55,7 @@
 .boton4 {
   background-color: rgb(235, 138, 74);
   border: 2px solid black;
-  padding: 15px 40px;
+  padding: 15px 50px;
   display: flex;
   color: black;
   text-align: center;
@@ -67,7 +67,7 @@
 .boton5 {
   background-color: rgb(96, 250, 250);
   border: 2px solid black;
-  padding: 15px 40px;
+  padding: 15px 50px;
   display: flex;
   color: black;
   text-align: center;
@@ -79,19 +79,19 @@
 .boton6 {
   background-color: rgb(96, 250, 250);
   border: 2px solid black;
-  padding: 15px 40px;
+  padding: 15px 50px;
   display: flex;
   color: black;
   text-align: center;
   position: absolute;
   justify-content: center;
-  top: 40%;
+  top: 50%;
   left: 27%;
 }
 .boton7 {
   background-color: rgb(96, 250, 250);
   border: 2px solid black;
-  padding: 15px 40px;
+  padding: 15px 50px;
   display: flex;
   color: black;
   text-align: center;
@@ -103,7 +103,7 @@
 .boton8 {
   background-color: rgb(96, 250, 250);
   border: 2px solid black;
-  padding: 15px 40px;
+  padding: 15px 50px;
   display: flex;
   color: black;
   text-align: center;
@@ -115,7 +115,7 @@
 .boton9 {
   background-color: rgb(70, 175, 49);
   border: 2px solid black;
-  padding: 15px 40px;
+  padding: 15px 50px;
   display: flex;
   color: black;
   text-align: center;
@@ -127,19 +127,19 @@
 .boton10 {
   background-color: rgb(70, 175, 49);
   border: 2px solid black;
-  padding: 15px 40px;
+  padding: 15px 50px;
   display: flex;
   color: black;
   text-align: center;
   position: absolute;
   justify-content: center;
-  top: 40%;
+  top: 50%;
   left: 54%;
 }
 .boton11 {
   background-color: rgb(70, 175, 49);
   border: 2px solid black;
-  padding: 15px 40px;
+  padding: 15px 50px;
   display: flex;
   color: black;
   text-align: center;
@@ -151,7 +151,7 @@
 .boton12 {
   background-color: rgb(70, 175, 49);
   border: 2px solid black;
-  padding: 15px 40px;
+  padding: 15px 50px;
   display: flex;
   color: black;
   text-align: center;
@@ -161,9 +161,9 @@
   left: 54%;
 }
 .boton13 {
-  background-color: rgb(56, 120, 240);
+  background-color: rgb(56, 120,  50);
   border: 2px solid black;
-  padding: 15px 40px;
+  padding: 15px 50px;
   display: flex;
   color: black;
   text-align: center;
@@ -173,21 +173,21 @@
   left: 85%;
 }
 .boton14 {
-  background-color: rgb(56, 120, 240);
+  background-color: rgb(56, 120,  50);
   border: 2px solid black;
-  padding: 15px 40px;
+  padding: 15px 50px;
   display: flex;
   color: black;
   text-align: center;
   position: absolute;
   justify-content: center;
-  top: 40%;
+  top: 50%;
   left: 85%;
 }
 .boton15 {
-  background-color: rgb(56, 120, 240);
+  background-color: rgb(56, 120,  50);
   border: 2px solid black;
-  padding: 15px 40px;
+  padding: 15px 50px;
   display: flex;
   color: black;
   text-align: center;
@@ -197,9 +197,9 @@
   left: 85%;
 }
 .boton16 {
-  background-color: rgb(56, 120, 240);
+  background-color: rgb(56, 120,  50);
   border: 2px solid black;
-  padding: 15px 40px;
+  padding: 15px 50px;
   display: flex;
   color: black;
   text-align: center;
@@ -241,6 +241,40 @@
   border-radius: 5px;
 }
 
+@media(max-width:1024px){
+  .videoAnterior {
+    padding: 35px 35px;
+    top: 50%;
+    left: 8%;
+    font-size: 50px;
+  }
+  .videoSiguiente {
+    padding: 35px 35px;
+    top: 50%;
+    left: 52%;
+    font-size: 50px;
+  }
+  .botonAtras {
+    padding: 13px 25px;
+    top: 5%;
+    left: 5%;
+    font-size: 20px;
+  }
+}
+@media (max-width:1024px) and (max-height:600px){
+  .videoAnterior {
+    padding: 25px 25px;
+    top: 80%;
+    left: 15%;
+    font-size: 20px;
+  }
+  .videoSiguiente {
+    padding: 25px 25px;
+    top: 80%;
+    left: 60%;
+    font-size: 20px;
+  }
+}
 @media (max-width: 768px) {
   .title {
     color: black;
@@ -258,12 +292,12 @@
     align-items: flex-start;
   }
   .temas h2 {
-    font-size: 30px;
-    padding: 30px 90px;
+    font-size: 20px;
+    padding: 20px 90px;
   }
   .temas h3 {
-    font-size: 30px;
-    padding: 30px 80px;
+    font-size: 20px;
+    padding: 20px 80px;
   }
   .boton1 {
     padding: 15px 50px;
@@ -345,8 +379,22 @@
     top: 84%;
     left: 62%;
   }
-  .VideoAnterior {
-    background-color: blue;
+  .videoAnterior {
+    padding: 5px 5px;
+    top: 50%;
+    left: 8%;
+    font-size: 20px;
+  }
+  .videoSiguiente {
+    padding: 5px 5px;
+    top: 50%;
+    left: 55%;
+    font-size: 20px;
+  }
+  .botonAtras {
+    padding: 5px 5px;
+    top: 8%;
+    left: 5%;
   }
 }
 
@@ -366,12 +414,12 @@
     align-items: flex-start;
   }
   .temas h2 {
-    font-size: 30px;
-    padding: 30px 65px;
+    font-size: 20px;
+    padding: 20px 65px;
   }
   .temas h3 {
-    font-size: 30px;
-    padding: 30px 10px;
+    font-size: 20px;
+    padding: 20px 10px;
   }
   .boton1 {
     padding: 15px 50px;
@@ -458,25 +506,24 @@
   .title {
     color: black;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
   }
   .temas {
     color: black;
-
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
-    height: 630px;
+    height: 620px;
     align-items: flex-start;
   }
   .temas h2 {
-    font-size: 30px;
-    padding: 30px 50px;
+    font-size: 20px;
+    padding: 20px 50px;
   }
   .temas h3 {
-    font-size: 30px;
-    padding: 30px 20px;
+    font-size: 20px;
+    padding: 20px 20px;
   }
   .boton1 {
     padding: 5px 35px;
@@ -558,16 +605,30 @@
     top: 84%;
     left: 60%;
   }
+  .videoAnterior {
+    padding: 5px 5px;
+    top: 50%;
+    left: 10%;
+  }
+  .videoSiguiente {
+    padding: 5px 5px;
+    top: 50%;
+    left: 53%;
+  }
+  .botonAtras {
+    padding: 5px 5px;
+    top: 5%;
+    left: 5%;
+  }
 }
 @media (max-width: 414px) {
   .title {
     color: black;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
   }
   .temas {
     color: black;
-
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -577,11 +638,11 @@
   }
   .temas h2 {
     font-size: 15px;
-    padding: 30px;
+    padding: 20px;
   }
   .temas h3 {
     font-size: 15px;
-    padding: 30px;
+    padding: 20px;
   }
   .boton1 {
     padding: 5px 5px;
@@ -663,16 +724,30 @@
     top: 84%;
     left: 60%;
   }
+  .videoAnterior {
+    padding: 5px 5px;
+    top: 50%;
+    left: 13%;
+  }
+  .videoSiguiente {
+    padding: 5px 5px;
+    top: 50%;
+    left: 58%;
+  }
+  .botonAtras {
+    padding: 5px 5px;
+    top: 5%;
+    left: 5%;
+  }
 }
 @media (max-width: 375px) {
   .title {
     color: black;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
   }
   .temas {
     color: black;
-
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -682,11 +757,11 @@
   }
   .temas h2 {
     font-size: 15px;
-    padding: 30px;
+    padding: 20px;
   }
   .temas h3 {
     font-size: 15px;
-    padding: 30px;
+    padding: 20px;
   }
   .boton1 {
     padding: 5px 5px;
@@ -767,6 +842,21 @@
     padding: 5px 5px;
     top: 84%;
     left: 60%;
+  }
+  .videoAnterior {
+    padding: 5px 5px;
+    top: 50%;
+    left: 10%;
+  }
+  .videoSiguiente {
+    padding: 5px 5px;
+    top: 50%;
+    left: 55%;
+  }
+  .botonAtras {
+    padding: 5px 5px;
+    top: 5%;
+    left: 5%;
   }
 }
 
@@ -774,11 +864,10 @@
   .title {
     color: black;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
   }
   .temas {
     color: black;
-
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -874,38 +963,20 @@
     top: 84%;
     left: 60%;
   }
-
   .videoAnterior {
     padding: 5px 5px;
-    border: 2px solid black;
-    top: 40%;
-    left: 10%;
-    position: absolute;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    border-radius: 5px;
-    background-color: rgb(221, 127, 38);
+    top: 50%;
+    left: 8%;
   }
-
   .videoSiguiente {
     padding: 5px 5px;
-    border: 2px solid black;
-    top: 40%;
-    left: 60%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    border-radius: 5px;
-    background-color: rgb(221, 127, 38);
+    top: 50%;
+    left: 53%;
   }
   .botonAtras {
-    padding: 15px 5px;
+    padding: 5px 5px;
     top: 5%;
     left: 5%;
-    position: absolute;
-    justify-content: center;
-    border-radius: 5px;
   }
 }
 
@@ -913,11 +984,10 @@
   .title {
     color: black;
     text-align: center;
-    font-size: 30px;
+    font-size: 22px;
   }
   .temas {
     color: black;
-
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -1013,21 +1083,26 @@
     top: 84%;
     left: 60%;
   }
-  .VideoAnterior {
+  .videoAnterior {
     padding: 5px 5px;
-    top: 84%;
-    left: 7%;
+    top: 50%;
+    left: 10%;
   }
-  .VideoSiguiente {
+  .videoSiguiente {
     padding: 5px 5px;
-    top: 70%;
-    left: 61%;
+    top: 50%;
+    left: 55%;
+  }
+  .botonAtras {
+    padding: 5px 5px;
+    top: 5%;
+    left: 5%;
   }
   .video {
     height: 0;
     overflow: hidden;
     padding-bottom: 56.25%;
-    padding-top: 30px;
+    padding-top: 20px;
     position: relative;
   }
   .video iframe,
@@ -1035,6 +1110,7 @@
   .video embed {
     height: 100%;
     left: 0;
+    right: 10%;
     position: absolute;
     top: 0;
     width: 100%;
@@ -1044,11 +1120,10 @@
   .title {
     color: black;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
   }
   .temas {
     color: black;
-
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -1144,6 +1219,23 @@
     top: 84%;
     left: 60%;
   }
+  .videoAnterior {
+    padding: 5px 5px;
+    top: 45%;
+    left: 6%;
+    font-size: 15px;
+  }
+  .videoSiguiente {
+    padding: 5px 5px;
+    top: 45%;
+    left: 52%;
+    font-size: 15px;
+  }
+  .botonAtras {
+    padding: 5px 5px;
+    top: 5%;
+    left: 5%;
+  }
 }
 
 .menu.BotonDrop:hover ~ .item {
@@ -1202,7 +1294,7 @@
   height: 0;
   overflow: hidden;
   padding-bottom: 56.25%;
-  padding-top: 30px;
+  padding-top: 20px;
   position: relative;
 }
 .video iframe,

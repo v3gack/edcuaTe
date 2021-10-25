@@ -22,6 +22,8 @@ import Leccion2D from './components/Leccion2D';
 import Leccion3D from './components/Leccion3D';
 import Leccion4D from './components/Leccion4D';
 import Leccion1sv1 from './components/Leccion1sv1';
+import Leccion1sv2 from './components/Leccion1sv2';
+import Leccion1sv3 from './components/Leccion1sv3';
 
     function App() {
       let history = useHistory();
@@ -48,6 +50,8 @@ import Leccion1sv1 from './components/Leccion1sv1';
             <Route exact path = "/Leccion3D" component = {Leccion3D} />
             <Route exact path = "/Leccion4D" component = {Leccion4D} />
             <Route exact path = "/Leccion1sv1" component = {Leccion1sv1} />
+            <Route exact path = "/Leccion1sv2" component = {Leccion1sv2} />
+            <Route exact path = "/Leccion1sv3" component = {Leccion1sv3} />
           </Switch>
         </Router>
       );

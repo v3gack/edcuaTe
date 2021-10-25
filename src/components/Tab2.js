@@ -3,14 +3,15 @@ import styles from './App.module.css';
 import {useHistory} from "react-router-dom";
 function Tab2(){
     let history = useHistory();
-   return  (<div>
+   return  (
+   <div>
        <div className = {styles.video} align = "center" >
-       <iframe  width="900" height="500" src="https://www.youtube.com/embed/tiAlSpyWIDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <iframe  width="900" height="500" src="https://www.youtube.com/embed/ZVIjH58vrFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
        </div>
         
         <button className = {styles.botonAtras} onClick ={
                  ()=>{
-                     history.push("/Tab1");
+                     history.push("/Leccion1S");
                  }         
              }>
                 🠔atras
@@ -29,10 +30,7 @@ function Tab2(){
              }>
                 Video Siguiente
             </button>
-    </div>
-    
-    
+    </div>      
     );
-
 }
 export default Tab2;

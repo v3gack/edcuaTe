@@ -30,7 +30,7 @@ import {useHistory} from "react-router-dom";
             
                 <button className ={styles.botonVideoSuma2} onClick ={
                     ()=>{
-                    history.push("/Tab2");
+                    history.push("/Tab2S3");
                     }
                 }> Video1
                 </button>
