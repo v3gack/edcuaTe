@@ -10,7 +10,7 @@ import {useHistory} from "react-router-dom";
         const abriCerrar = () => {setDropdown(!dropDown)}
         let history = useHistory();
        return (
-                 <div className={styles.menu}> 
+                 <div className={styles.menu}> <br/><br/><br/>
                  <h1 className={styles.tituloSL2}>TEMA DIVISION - LECCION 2</h1>
                  <button className = {styles.botonAtras} onClick ={
                  ()=>{

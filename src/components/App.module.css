@@ -16,6 +16,11 @@
 .temas h3 {
   font-size: 45px;
 }
+.tituloSL2 {
+  text-align: center;
+  color: black;
+  font-size: 50px;
+}
 .boton1 {
   background-color: rgb(235, 138, 74);
   border: 2px solid black;
@@ -241,7 +246,51 @@
   border-radius: 5px;
 }
 
-@media(max-width:1024px){
+.menu.BotonDrop:hover ~ .item {
+  background-color: black !important;
+}
+.menu {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.BotonDrop {
+  position: absolute !important;
+  width: 250px !important;
+  height: 45px !important;
+  font-weight: bolder !important;
+  box-shadow: none !important;
+  background-color: red !important;
+  border-color: black !important;
+  border-width: medium !important;
+  border-radius: 0% !important;
+  left: 100px;
+  top: 100px;
+}
+
+.desplegable {
+  background-color: yellow !important;
+  border-radius: 0% !important;
+  border: 5px solid black !important;
+  visibility: hidden !important;
+  font-size: larger !important;
+}
+
+.BotonDrop:hover ~ .desplegable {
+  visibility: visible !important;
+}
+.desplegable:hover {
+  visibility: visible !important;
+}
+
+.botonVideoSuma2 {
+  background-color: yellow;
+  padding: 10px 100px;
+  border: none;
+  display: flex;
+}
+
+@media (max-width: 1024px) {
   .temas {
     color: black;
     display: flex;
@@ -351,7 +400,7 @@
     font-size: 20px;
   }
 }
-@media (max-width:1024px) and (max-height:600px){
+@media (max-width: 1024px) and (max-height: 600px) {
   .videoAnterior {
     padding: 25px 25px;
     top: 80%;
@@ -615,6 +664,25 @@
     font-size: 20px;
     padding: 20px 20px;
   }
+  .BotonDrop {
+    position: absolute !important;
+    width: 150px !important;
+    height: 45px !important;
+    font-weight: bolder !important;
+    box-shadow: none !important;
+    background-color: red !important;
+    border-color: black !important;
+    border-width: medium !important;
+    border-radius: 0% !important;
+    left: 10px;
+    top: 70px;
+  }
+  .botonVideoSuma2 {
+    background-color: yellow;
+    padding: 10px 80px;
+    border: none;
+    display: flex;
+  }
   .boton1 {
     padding: 5px 35px;
     top: 20%;
@@ -733,6 +801,25 @@
   .temas h3 {
     font-size: 18px;
     padding: 20px 30px;
+  }
+  .BotonDrop {
+    position: absolute !important;
+    width: 100px !important;
+    height: 45px !important;
+    font-weight: bolder !important;
+    box-shadow: none !important;
+    background-color: red !important;
+    border-color: black !important;
+    border-width: medium !important;
+    border-radius: 0% !important;
+    left: 10px;
+    top: 70px;
+  }
+  .botonVideoSuma2 {
+    background-color: yellow;
+    padding: 10px 10px;
+    border: none;
+    display: flex;
   }
   .boton1 {
     padding: 5px 5px;
@@ -973,6 +1060,25 @@
   .temas h3 {
     font-size: 15px;
     padding: 20px;
+  }
+  .BotonDrop {
+    position: absolute !important;
+    width: 100px !important;
+    height: 45px !important;
+    font-weight: bolder !important;
+    box-shadow: none !important;
+    background-color: red !important;
+    border-color: black !important;
+    border-width: medium !important;
+    border-radius: 0% !important;
+    left: 10px;
+    top: 70px;
+  }
+  .botonVideoSuma2 {
+    background-color: yellow;
+    padding: 10px 10px;
+    border: none;
+    display: flex;
   }
   .boton1 {
     padding: 5px 5px;
@@ -1327,58 +1433,6 @@
     top: 5%;
     left: 5%;
   }
-}
-
-.menu.BotonDrop:hover ~ .item {
-  background-color: black !important;
-}
-.menu {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.BotonDrop {
-  position: absolute !important;
-  width: 250px !important;
-  height: 45px !important;
-  font-weight: bolder !important;
-  box-shadow: none !important;
-  background-color: red !important;
-  border-color: black !important;
-  border-width: medium !important;
-  border-radius: 0% !important;
-  left: 100px;
-  top: 100px;
-}
-
-.desplegable {
-  background-color: yellow !important;
-  border-radius: 0% !important;
-  border: 5px solid black !important;
-  visibility: hidden !important;
-  font-size: larger !important;
-}
-
-.BotonDrop:hover ~ .desplegable {
-  visibility: visible !important;
-}
-.desplegable:hover {
-  visibility: visible !important;
-}
-
-.botonVideoSuma2 {
-  background-color: yellow;
-  padding: 10px 100px;
-  border: none;
-  display: flex;
-}
-.tituloSL2 {
-  text-align: center;
-  padding-top: 100px;
-  color: black;
-  font-size: 90px;
-  display: flex;
-  text-align: center;
 }
 
 .video {
