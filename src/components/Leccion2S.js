@@ -1,27 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
-import styles from "./App.module.css";
-//import styles from "./Tab2.css";
-import {useHistory} from "react-router-dom";
-function Leccion2S() {
-    let history = useHistory();
-    return (
-        <div> 
-         <h1 className = {styles.title}>TEMAS</h1>
-         < br/>< br/>
-            <pre className = {styles.temas}>             SUMA                 RESTA                  MULTIPLICACION                    DIVISION</pre>
-            <button className = {styles.boton2} onClick ={
-                ()=>{
-                    history.push("/Tab2");
-                }
-            }>
-                Leccion 2 Suma
-            </button>
-        </div>
-    )
-}
-export default Leccion2S;
-=======
 import React, { useState } from 'react';
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem} from 'reactstrap';
 import styles from './App.module.css';
@@ -83,4 +59,3 @@ import {useHistory} from "react-router-dom";
       }
 
 export default Leccion2S;
->>>>>>> ef5ea8a3f220fc024f6125bec24430bfa0a13368

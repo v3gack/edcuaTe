@@ -1,14 +1,6 @@
 import React from 'react';
 import './App.css';
 import Tab1 from "./components/Tab1";
-<<<<<<< HEAD
-import Tab2 from "./components/Tab2";
-import { BrowserRouter as Router, Switch, Route }from "react-router-dom";
-import {useHistory} from "react-router-dom";
-import Home from './components/Home';
-import Leccion1 from './components/Leccion1S';
-
-=======
 
 import { BrowserRouter as Router, Switch, Route }from "react-router-dom";
 import {useHistory} from "react-router-dom";
@@ -81,7 +73,6 @@ import Leccion3dv3 from "./components/Leccion3dv3";
 import Leccion4dv1 from "./components/Leccion4dv1";
 import Leccion4dv2 from "./components/Leccion4dv2";
 import Leccion4dv3 from "./components/Leccion4dv3";
->>>>>>> ef5ea8a3f220fc024f6125bec24430bfa0a13368
 
     function App() {
       let history = useHistory();
@@ -90,10 +81,6 @@ import Leccion4dv3 from "./components/Leccion4dv3";
           <Switch>
             <Route exact path = "/" component = {Home} />
             <Route exact path = "/Tab1" component = {Tab1} />
-<<<<<<< HEAD
-            <Route exact path = "/Tab2" component = {Tab2} />
-            <Route exact path = "/Leccion1" component = {Leccion1} />
-=======
             <Route exact path = "/Leccion1S" component = {Leccion1S} />
             <Route exact path = "/Leccion2S" component = {Leccion2S} />
             <Route exact path = "/Leccion3S" component = {Leccion3S} />
@@ -162,7 +149,6 @@ import Leccion4dv3 from "./components/Leccion4dv3";
             <Route exact path = "/Leccion4dv1" component = {Leccion4dv1} />
             <Route exact path = "/Leccion4dv2" component = {Leccion4dv2} />
             <Route exact path = "/Leccion4dv3" component = {Leccion4dv3} />
->>>>>>> ef5ea8a3f220fc024f6125bec24430bfa0a13368
           </Switch>
         </Router>
       );

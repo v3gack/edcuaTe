@@ -3,12 +3,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-<<<<<<< HEAD
-  background-position: absolute;
-=======
   background-position: center center;
   /* display: block; */
->>>>>>> ef5ea8a3f220fc024f6125bec24430bfa0a13368
 }
 .title {
   color: black;
