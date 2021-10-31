@@ -8,7 +8,7 @@ function Leccion3mv1(){
        <ul  >
            <li className = {styles.punto}>
                <div className = {styles.video} >
-       <iframe text-align = "center" src="https://www.youtube.com/embed/RzUFwweEFHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <iframe text-align = "center" src="https://www.youtube.com/embed/RZj2JNlJSy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </li>
        </ul>
