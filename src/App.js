@@ -74,6 +74,8 @@ import Leccion4dv1 from "./components/Leccion4dv1";
 import Leccion4dv2 from "./components/Leccion4dv2";
 import Leccion4dv3 from "./components/Leccion4dv3";
 
+import JuegoSumaL1 from "./components/JuegoSumaL1"
+
     function App() {
       let history = useHistory();
       return (
@@ -149,6 +151,8 @@ import Leccion4dv3 from "./components/Leccion4dv3";
             <Route exact path = "/Leccion4dv1" component = {Leccion4dv1} />
             <Route exact path = "/Leccion4dv2" component = {Leccion4dv2} />
             <Route exact path = "/Leccion4dv3" component = {Leccion4dv3} />
+
+            <Route exact path = "/JuegoSumaL1" component = {JuegoSumaL1}/>
           </Switch>
         </Router>
       );
