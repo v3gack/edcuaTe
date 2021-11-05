@@ -20,16 +20,16 @@ function Leccion3rv2(){
              }>
                 🠔atras
             </button>
-            {/* <button className = {styles.videoAnterior} onClick ={
+             <button className = {styles.videoAnterior} onClick ={
                  ()=>{
-                     history.push("/Tab1");
+                     history.push("/Leccion3rv1");
                  }         
              }>
                 Video Anterior
-            </button> */}
+            </button> 
             <button className = {styles.videoSiguiente} onClick ={
                  ()=>{
-                     history.push("/Leccion3rv2");
+                     history.push("/Leccion3rv3");
                  }         
              }>
                 Video Siguiente

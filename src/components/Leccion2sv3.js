@@ -8,7 +8,7 @@ function Leccion2sv3(){
        <ul  >
            <li className = {styles.punto}>
                <div className = {styles.video} >
-       <iframe text-align = "center" src="https://www.youtube.com/embed/eYpeu4Na3qcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <iframe text-align = "center" src="https://www.youtube.com/embed/eYpeu4Na3qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </li>
        </ul>

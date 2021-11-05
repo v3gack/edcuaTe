@@ -5,36 +5,36 @@ function JuegoSumaL1(){
     let history = useHistory();
     const questions = [
 		{
-			questionText: 'What is the capital of France?',
+			questionText: ' 9 + 8 = ',
 			answerOptions: [
-				{ answerText: 'New York', isCorrect: false },
-				{ answerText: 'London', isCorrect: false },
-				{ answerText: 'Paris', isCorrect: true },
-				{ answerText: 'Dublin', isCorrect: false },
+				{ answerText: '18', isCorrect: false },
+				{ answerText: '14', isCorrect: false },
+				{ answerText: '17', isCorrect: true  },
+				{ answerText: '16', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'Who is CEO of Tesla?',
+			questionText: '5 + 3 =',
 			answerOptions: [
-				{ answerText: 'Jeff Bezos', isCorrect: false },
-				{ answerText: 'Elon Musk', isCorrect: true },
-				{ answerText: 'Bill Gates', isCorrect: false },
-				{ answerText: 'Tony Stark', isCorrect: false },
+				{ answerText: '7', isCorrect: false },
+				{ answerText: '8', isCorrect: true },
+				{ answerText: '10', isCorrect: false },
+				{ answerText: '9', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'The iPhone was created by which company?',
+			questionText: '6 + 7 = ',
 			answerOptions: [
-				{ answerText: 'Apple', isCorrect: true },
-				{ answerText: 'Intel', isCorrect: false },
-				{ answerText: 'Amazon', isCorrect: false },
-				{ answerText: 'Microsoft', isCorrect: false },
+				{ answerText: '13', isCorrect: true },
+				{ answerText: '12', isCorrect: false },
+				{ answerText: '11', isCorrect: false },
+				{ answerText: '14', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'How many Harry Potter books are there?',
+			questionText: '2 + 5 = ',
 			answerOptions: [
-				{ answerText: '1', isCorrect: false },
+				{ answerText: '8', isCorrect: false },
 				{ answerText: '4', isCorrect: false },
 				{ answerText: '6', isCorrect: false },
 				{ answerText: '7', isCorrect: true },
@@ -46,9 +46,12 @@ function JuegoSumaL1(){
 	const [showScore, setShowScore] = useState(false);
 	const [score, setScore] = useState(0);
 
+
+
 	const handleAnswerOptionClick = (isCorrect) => {
 		if (isCorrect) {
 			setScore(score + 1);
+			
 		}
 
 		const nextQuestion = currentQuestion + 1;
@@ -59,7 +62,15 @@ function JuegoSumaL1(){
 		}
 	};
     return  (
+		
         <div className = {styles.ini}>
+			<button className = {styles.botonAtras} onClick ={
+                 ()=>{
+                     history.push("/Tab1");
+                 }         
+             }>
+                🠔atras
+            </button>
         <div className={styles.ap}>
 			{showScore ? (
 				<div className={styles.scoresection}>

@@ -8,7 +8,7 @@ function Leccion3rv3(){
        <ul  >
            <li className = {styles.punto}>
                <div className = {styles.video} >
-       <iframe text-align = "center" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <iframe text-align = "center" src="https://www.youtube.com/embed/YFtEaVw5k1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </li>
        </ul>
@@ -20,20 +20,20 @@ function Leccion3rv3(){
              }>
                 🠔atras
             </button>
-            {/* <button className = {styles.videoAnterior} onClick ={
+            <button className = {styles.videoAnterior} onClick ={
                  ()=>{
-                     history.push("/Tab1");
+                     history.push("/Leccion3rv2");
                  }         
              }>
                 Video Anterior
-            </button> */}
-            <button className = {styles.videoSiguiente} onClick ={
+            </button> 
+            {/* <button className = {styles.videoSiguiente} onClick ={
                  ()=>{
                      history.push("/Leccion3rv3");
                  }         
              }>
                 Video Siguiente
-            </button>
+            </button> */}
     </div> 
     );
 }
