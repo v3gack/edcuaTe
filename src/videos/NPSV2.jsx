@@ -2,7 +2,7 @@ import React from "react";
 import styles from './video.module.css';
 import {useHistory} from "react-router-dom";
 import { Link } from "react-router-dom";
-export function NPSV1(){
+export function NPSV2(){
     let history = useHistory();
    return  (<div>
        <h1 className = {styles.title}>NIVEL PLANTA - SUMA</h1>

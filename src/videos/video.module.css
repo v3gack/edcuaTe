@@ -97,3 +97,19 @@
 .punto {
   list-style: none;
 }
+.videoslider {
+  width: 100%;
+  height: 20em;
+  background: #444;
+  position: relative;
+  overflow: hidden;
+}
+.slide {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}

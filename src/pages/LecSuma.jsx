@@ -11,73 +11,49 @@ import {useHistory} from "react-router-dom";
 export function LecSuma(){
   let history = useHistory();
     return (
-    <Router>
-    <ul className = {stylesDiv.niveles}>
-        <li>
-        <Link className = {stylesDiv.semilla} to ="/suma" onClick ={
-                 ()=>{
-                     history.push("/suma");
-                 }         
-             }>
+    <main>
+    <div className = {stylesDiv.niveles}>
+        <div>
+        <Link className = {stylesDiv.semilla} to ="/suma" >
           Nivel Semilla 
         </Link>
-        </li>
-        <li>
-        <Link className = {stylesDiv.sub} to ="/LecSNB" onClick ={
-                 ()=>{
-                     history.push("/LecSNB");
-                 }         
-             }>
+        </div>
+        <div>
+        <Link className = {stylesDiv.sub} to ="/LecSNB" >
           Nivel Brote
         </Link>
-        </li>
+        </div>
 
-        <li>
-        <Link className = {stylesDiv.sub} to ="/LecSNP" onClick ={
-                 ()=>{
-                     history.push("/LecSNP");
-                 }         
-             }>
+        <div>
+        <Link className = {stylesDiv.sub} to ="/LecSNP" >
           Nivel Planta
         </Link>
-        </li>
-        <li>
-        <Link className = {stylesDiv.sub} to ="/LecSNA" onClick ={
-                 ()=>{
-                     history.push("/LecSNA");
-                 }         
-             }>
+        </div>
+        <div>
+        <Link className = {stylesDiv.sub} to ="/LecSNA" >
             Nivel Arbol
         </Link>
-        </li>
-    </ul>
-    <ul className={stylesDiv.LeccionGrid}>
-        <li>
+        </div>
+    </div>
+     <div className={stylesDiv.LeccionGrid}>
+        <div>
           
-          <Link to = "/juegoSS" onClick ={
-                 ()=>{
-                     history.push("/juegoSS");
-                 }         
-             }>
+          <Link to = "/juegoSS" >
             <img className={stylesDiv.ImgStyle} src={Juego} alt="juego" />
           </Link>
-        </li>
-        <li>
+        </div>
+        <div>
           <Link to="/Practica">
             <img className={stylesDiv.ImgStyle} src={Practica} alt="practicas" />
           </Link>
-        </li>
-        <li>
-          <Link to="/NivelSemillaSumaV1" onClick ={
-                 ()=>{
-                     history.push("/NivelSemillaSumaV1");
-                 }         
-             }>
+        </div>
+        <div>
+          <Link to="/NivelSemillaSumaV1" >
             <img className={stylesDiv.ImgStyle} src={Video} alt="video" />
           </Link>
-        </li>
-      </ul>
-  </Router>
+        </div>
+      </div> 
+      </main>
   );
 }
      

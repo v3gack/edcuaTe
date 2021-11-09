@@ -8,13 +8,13 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import {useHistory} from "react-router-dom";
 
-export function LecResta(){
+export function LecRNP(){
   let history = useHistory();
     return (
-    <Router>
+    <main>
     <ul className = {stylesDiv.niveles}>
         <li>
-        <Link className = {stylesDiv.semilla} to ="/resta" onClick ={
+        <Link className = {stylesDiv.sub} to ="/resta" onClick ={
                  ()=>{
                      history.push("/resta");
                  }         
@@ -33,7 +33,7 @@ export function LecResta(){
         </li>
 
         <li>
-        <Link className = {stylesDiv.sub} to ="/LecRNP" onClick ={
+        <Link className = {stylesDiv.semilla} to ="/LecRNP" onClick ={
                  ()=>{
                      history.push("/LecRNP");
                  }         
@@ -44,7 +44,7 @@ export function LecResta(){
         <li>
         <Link className = {stylesDiv.sub} to ="/LecRNA" onClick ={
                  ()=>{
-                     history.push("/LecRNA");
+                     history.push("/LecRNB");
                  }         
              }>
             Nivel Arbol
@@ -68,15 +68,15 @@ export function LecResta(){
           </Link>
         </li>
         <li>
-          <Link to="/NSRV1" onClick ={
+          <Link to="/NPRV1" onClick ={
                  ()=>{
-                     history.push("/NSRV1");
+                     history.push("/NPRV1");
                  }         
              }>
             <img className={stylesDiv.ImgStyle} src={Video} alt="video" />
           </Link>
         </li>
       </ul>
-  </Router>
+      </main>
   );
 }

@@ -68,9 +68,9 @@ export function LecSNA(){
           </Link>
         </li>
         <li>
-          <Link to="/NivelSemillaSumaV1" onClick ={
+          <Link to="/NASV1" onClick ={
                  ()=>{
-                     history.push("/NivelSemillaSumaV1");
+                     history.push("/NASV1");
                  }         
              }>
             <img className={stylesDiv.ImgStyle} src={Video} alt="video" />

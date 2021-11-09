@@ -6,6 +6,7 @@
   list-style: none;
   margin-top: -7px;
   font-family: "Butterfly Kids", cursive;
+  /* max-width: 97.8%; */
 }
 .sub {
   text-decoration: none;
@@ -20,18 +21,16 @@
 .LeccionGrid {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 400px);
-  gap: 130px;
-  padding: 20px;
+  grid-template-columns: repeat(auto-fill, 500px);
+  gap: 100px;
+  /* padding: 20px; */
   justify-content: center;
+  margin-top: 10%;
 }
 .ImgStyle {
   border-radius: 70px;
   /* background-color: rgb(255, 136, 0); */
   width: 400px;
-  animation-name: imganim;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
 }
 .title {
   color: rgb(255, 255, 255);
@@ -72,7 +71,7 @@
 }
 .botonAtras {
   padding: 15px 50px;
-  top: 9%;
+  top: 5%;
   left: 5%;
   position: absolute;
   justify-content: center;
@@ -96,4 +95,15 @@
 }
 .punto {
   list-style: none;
+}
+@media (max-width: 520px) {
+  .LeccionGrid {
+  }
+  .ImgStyle {
+    padding-left: 90px;
+    width: 200px;
+  }
+  .niveles {
+    padding: auto;
+  }
 }

@@ -8,24 +8,24 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import {useHistory} from "react-router-dom";
 
-export function LecResta(){
+export function LecMNP(){
   let history = useHistory();
     return (
     <Router>
     <ul className = {stylesDiv.niveles}>
         <li>
-        <Link className = {stylesDiv.semilla} to ="/resta" onClick ={
+        <Link className = {stylesDiv.sub} to ="/multiplicacion" onClick ={
                  ()=>{
-                     history.push("/resta");
+                     history.push("/multiplicacion");
                  }         
              }>
           Nivel Semilla 
         </Link>
         </li>
         <li>
-        <Link className = {stylesDiv.sub} to ="/LecRNB" onClick ={
+        <Link className = {stylesDiv.sub} to ="/LecMNB" onClick ={
                  ()=>{
-                     history.push("/LecRNB");
+                     history.push("/LecMNB");
                  }         
              }>
           Nivel Brote
@@ -33,18 +33,18 @@ export function LecResta(){
         </li>
 
         <li>
-        <Link className = {stylesDiv.sub} to ="/LecRNP" onClick ={
+        <Link className = {stylesDiv.semilla} to ="/LecMNP" onClick ={
                  ()=>{
-                     history.push("/LecRNP");
+                     history.push("/LecMNP");
                  }         
              }>
           Nivel Planta
         </Link>
         </li>
         <li>
-        <Link className = {stylesDiv.sub} to ="/LecRNA" onClick ={
+        <Link className = {stylesDiv.sub} to ="/LecMNA" onClick ={
                  ()=>{
-                     history.push("/LecRNA");
+                     history.push("/LecMNA");
                  }         
              }>
             Nivel Arbol
@@ -68,9 +68,9 @@ export function LecResta(){
           </Link>
         </li>
         <li>
-          <Link to="/NSRV1" onClick ={
+          <Link to="/NPMV1" onClick ={
                  ()=>{
-                     history.push("/NSRV1");
+                     history.push("/NPMV1");
                  }         
              }>
             <img className={stylesDiv.ImgStyle} src={Video} alt="video" />

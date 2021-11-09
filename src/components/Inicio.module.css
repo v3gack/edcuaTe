@@ -5,16 +5,19 @@
   padding-right: 1px;
 }
 .btt {
-  margin-right: 5%;
-  padding: 20px 100px;
+  /* margin-right: 5%; */
+  padding: 20px;
   /* float: right; */
   border-radius: 5px;
   background-color: rgb(221, 127, 38);
   border: 2px solid white;
   color: white;
   font-size: 20px;
+  width: 100%;
+  max-width: 200px;
 
-  left: 50%;
+  height: auto;
+  left: 45%;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -28,7 +31,12 @@ h1 {
 .texto {
   justify-content: center;
   display: flex;
-  color: white;
-  font-size: 40px;
+  /* color: white;
+  font-size: 4vw;
+  font-family: "Butterfly Kids", cursive; */
+}
+.texto2 {
+  font-size: 4vw;
   font-family: "Butterfly Kids", cursive;
+  color: white;
 }

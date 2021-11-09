@@ -8,24 +8,24 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import {useHistory} from "react-router-dom";
 
-export function LecResta(){
+export function LecDNP(){
   let history = useHistory();
     return (
     <Router>
     <ul className = {stylesDiv.niveles}>
         <li>
-        <Link className = {stylesDiv.semilla} to ="/resta" onClick ={
+        <Link className = {stylesDiv.sub} to ="/division" onClick ={
                  ()=>{
-                     history.push("/resta");
+                     history.push("/division");
                  }         
              }>
           Nivel Semilla 
         </Link>
         </li>
         <li>
-        <Link className = {stylesDiv.sub} to ="/LecRNB" onClick ={
+        <Link className = {stylesDiv.sub} to ="/LecDNB" onClick ={
                  ()=>{
-                     history.push("/LecRNB");
+                     history.push("/LecDNB");
                  }         
              }>
           Nivel Brote
@@ -33,18 +33,18 @@ export function LecResta(){
         </li>
 
         <li>
-        <Link className = {stylesDiv.sub} to ="/LecRNP" onClick ={
+        <Link className = {stylesDiv.semilla} to ="/LecDNP" onClick ={
                  ()=>{
-                     history.push("/LecRNP");
+                     history.push("/LecDNP");
                  }         
              }>
           Nivel Planta
         </Link>
         </li>
         <li>
-        <Link className = {stylesDiv.sub} to ="/LecRNA" onClick ={
+        <Link className = {stylesDiv.sub} to ="/LecDNA" onClick ={
                  ()=>{
-                     history.push("/LecRNA");
+                     history.push("/LecDNA");
                  }         
              }>
             Nivel Arbol
@@ -68,9 +68,9 @@ export function LecResta(){
           </Link>
         </li>
         <li>
-          <Link to="/NSRV1" onClick ={
+          <Link to="/NPDV1" onClick ={
                  ()=>{
-                     history.push("/NSRV1");
+                     history.push("/NPDV1");
                  }         
              }>
             <img className={stylesDiv.ImgStyle} src={Video} alt="video" />
