@@ -17,10 +17,10 @@
 }
 @keyframes imganim {
   from {
-    transform: rotateZ(0deg);
+    transform: rotateZ(-15deg);
   }
   to {
-    transform: rotateZ(360deg);
+    transform: rotateZ(15deg);
   }
 }
 @media (max-width: 400px) {
