@@ -54,9 +54,9 @@ export function LecMultiplicacion(){
     <ul className={stylesDiv.LeccionGrid}>
         <li>
           
-          <Link to = "/juegoSS" onClick ={
+          <Link to = "/JuegoMultS" onClick ={
                  ()=>{
-                     history.push("/juegoSS");
+                     history.push("/JuegoMultS");
                  }         
              }>
             <img className={stylesDiv.ImgStyle} src={Juego} alt="juego" />

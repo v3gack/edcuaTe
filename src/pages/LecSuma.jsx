@@ -38,7 +38,7 @@ export function LecSuma(){
      <div className={stylesDiv.LeccionGrid}>
         <div>
           
-          <Link to = "/juegoSS" >
+          <Link to = "/juegoSumaS" >
             <img className={stylesDiv.ImgStyle} src={Juego} alt="juego" />
           </Link>
         </div>

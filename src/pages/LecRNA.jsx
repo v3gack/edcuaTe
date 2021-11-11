@@ -44,7 +44,7 @@ export function LecRNA(){
         <li>
         <Link className = {stylesDiv.semilla} to ="/LecRNA" onClick ={
                  ()=>{
-                     history.push("/LecRNB");
+                     history.push("/LecRNA");
                  }         
              }>
             Nivel Arbol
@@ -54,9 +54,9 @@ export function LecRNA(){
     <ul className={stylesDiv.LeccionGrid}>
         <li>
           
-          <Link to = "/juegoSS" onClick ={
+          <Link to = "/JuegoRestaA" onClick ={
                  ()=>{
-                     history.push("/juegoSS");
+                     history.push("/JuegoRestaA");
                  }         
              }>
             <img className={stylesDiv.ImgStyle} src={Juego} alt="juego" />

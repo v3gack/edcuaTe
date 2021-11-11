@@ -54,9 +54,9 @@ export function LecDNP(){
     <ul className={stylesDiv.LeccionGrid}>
         <li>
           
-          <Link to = "/juegoSS" onClick ={
+          <Link to = "/JuegoDivP" onClick ={
                  ()=>{
-                     history.push("/juegoSS");
+                     history.push("/JuegoDivP");
                  }         
              }>
             <img className={stylesDiv.ImgStyle} src={Juego} alt="juego" />

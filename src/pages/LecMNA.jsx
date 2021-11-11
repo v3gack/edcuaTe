@@ -54,9 +54,9 @@ export function LecMNA(){
     <ul className={stylesDiv.LeccionGrid}>
         <li>
           
-          <Link to = "/juegoSS" onClick ={
+          <Link to = "/JuegoMultA" onClick ={
                  ()=>{
-                     history.push("/juegoSS");
+                     history.push("/JuegoMultA");
                  }         
              }>
             <img className={stylesDiv.ImgStyle} src={Juego} alt="juego" />

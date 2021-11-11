@@ -54,9 +54,9 @@ export function LecDNB(){
     <ul className={stylesDiv.LeccionGrid}>
         <li>
           
-          <Link to = "/juegoSS" onClick ={
+          <Link to = "/JuegoDivB" onClick ={
                  ()=>{
-                     history.push("/juegoSS");
+                     history.push("/JuegoDivB");
                  }         
              }>
             <img className={stylesDiv.ImgStyle} src={Juego} alt="juego" />

@@ -68,6 +68,26 @@ import { NADV1 } from "./videos/VIDEODIVIS/NADV1";
 import { NADV2 } from "./videos/VIDEODIVIS/NADV2";
 import { NADV3 } from "./videos/VIDEODIVIS/NADV3";
 
+import { JuegoSumaS} from "./videos/VIDEOSUMA/JuegoSumaS";
+import { JuegoSumaB } from "./videos/VIDEOSUMA/JuegoSumaB";
+import { JuegoSumaP } from "./videos/VIDEOSUMA/JuegoSumaP";
+import { JuegoSumaA } from "./videos/VIDEOSUMA/JuegoSumaA";
+
+import { JuegoRestaS } from "./videos/VIDEORESTA/JuegoRestaS";
+import { JuegoRestaB } from "./videos/VIDEORESTA/JuegoRestaB";
+import { JuegoRestaP } from "./videos/VIDEORESTA/JuegoRestaP";
+import { JuegoRestaA } from "./videos/VIDEORESTA/JuegoRestaA";
+
+import { JuegoMultS } from "./videos/VIDEOMULT/JuegoMultS";
+import { JuegoMultB } from "./videos/VIDEOMULT/JuegoMultB";
+import { JuegoMultP } from "./videos/VIDEOMULT/JuegoMultP";
+import { JuegoMultA } from "./videos/VIDEOMULT/JuegoMultA";
+
+import { JuegoDivS } from "./videos/VIDEODIVIS/JuegoDivS";
+import { JuegoDivB } from "./videos/VIDEODIVIS/JuegoDivB";
+import { JuegoDivP } from "./videos/VIDEODIVIS/JuegoDivP";
+import { JuegoDivA } from "./videos/VIDEODIVIS/JuegoDivA";
+
 export function App() {
   return (
     <Router>
@@ -272,6 +292,54 @@ export function App() {
           </Route>
           <Route path = "/NADV3">
             <NADV3/>
+          </Route>
+          <Route path = "/JuegoSumaS">
+            <JuegoSumaS/>
+          </Route>
+          <Route path = "/JuegoSumaB">
+            <JuegoSumaB/>
+          </Route>
+          <Route path = "/JuegoSumaP">
+            <JuegoSumaP/>
+          </Route>
+          <Route path = "/JuegoSumaA">
+            <JuegoSumaA/>
+          </Route>
+          <Route path = "/JuegoRestaS">
+            <JuegoRestaS/>
+          </Route>
+          <Route path = "/JuegoRestaB">
+            <JuegoRestaB/>
+          </Route>
+          <Route path = "/JuegoRestaP">
+            <JuegoRestaP/>
+          </Route>
+          <Route path = "/JuegoRestaA">
+            <JuegoRestaA/>
+          </Route>
+          <Route path = "/JuegoMultS">
+            <JuegoMultS/>
+          </Route>
+          <Route path = "/JuegoMultB">
+            <JuegoMultB/>
+          </Route>
+          <Route path = "/JuegoMultP">
+            <JuegoMultP/>
+          </Route>
+          <Route path = "/JuegoMultA">
+            <JuegoMultA/>
+          </Route>
+          <Route path = "/JuegoDivS">
+            <JuegoDivS/>
+          </Route>
+          <Route path = "/JuegoDivB">
+            <JuegoDivB/>
+          </Route>
+          <Route path = "/JuegoDivP">
+            <JuegoDivP/>
+          </Route>
+          <Route path = "/JuegoDivA">
+            <JuegoDivA/>
           </Route>
           <Route path="/">
             <Inicio/>
