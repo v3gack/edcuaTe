@@ -63,7 +63,11 @@ export function LecDivision(){
           </Link>
         </li>
         <li>
-          <Link to="/Practica">
+        <Link to="/PDS" onClick ={
+                 ()=>{
+                     history.push("/PDS");
+                 }         
+             }>
             <img className={stylesDiv.ImgStyle} src={Practica} alt="practicas" />
           </Link>
         </li>
