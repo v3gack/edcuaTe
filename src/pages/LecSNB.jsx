@@ -54,16 +54,20 @@ export function LecSNB(){
     <ul className={stylesDiv.LeccionGrid}>
         <li>
           
-          <Link to = "/juegoSS" onClick ={
+          <Link to = "/JuegoSumaB" onClick ={
                  ()=>{
-                     history.push("/juegoSS");
+                     history.push("/JuegoSumaB");
                  }         
              }>
             <img className={stylesDiv.ImgStyle} src={Juego} alt="juego" />
           </Link>
         </li>
         <li>
-          <Link to="/Practica">
+          <Link to="/PSS" onClick={
+            ()=>{
+              history.push("/PSS");
+            }
+          }>
             <img className={stylesDiv.ImgStyle} src={Practica} alt="practicas" />
           </Link>
         </li>

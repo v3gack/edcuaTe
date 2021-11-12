@@ -44,7 +44,7 @@ export function LecRNB(){
         <li>
         <Link className = {stylesDiv.sub} to ="/LecRNA" onClick ={
                  ()=>{
-                     history.push("/LecRNB");
+                     history.push("/LecRNA");
                  }         
              }>
             Nivel Arbol
@@ -54,19 +54,27 @@ export function LecRNB(){
     <ul className={stylesDiv.LeccionGrid}>
         <li>
           
-          <Link to = "/juegoSS" onClick ={
+          <Link to = "/JuegoRestaB" onClick ={
                  ()=>{
-                     history.push("/juegoSS");
+                     history.push("/JuegoRestaB");
                  }         
              }>
             <img className={stylesDiv.ImgStyle} src={Juego} alt="juego" />
           </Link>
         </li>
+
+
         <li>
-          <Link to="/Practica">
+          <Link to="/PRB" onClick={
+            ()=>{
+              history.push("/PRB");
+            }
+          }>
             <img className={stylesDiv.ImgStyle} src={Practica} alt="practicas" />
           </Link>
         </li>
+
+
         <li>
           <Link to="/NBRV1" onClick ={
                  ()=>{

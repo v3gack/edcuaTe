@@ -54,19 +54,27 @@ export function LecResta(){
     <ul className={stylesDiv.LeccionGrid}>
         <li>
           
-          <Link to = "/juegoSS" onClick ={
+          <Link to = "/JuegoRestaS" onClick ={
                  ()=>{
-                     history.push("/juegoSS");
+                     history.push("/JuegoRestaS");
                  }         
              }>
             <img className={stylesDiv.ImgStyle} src={Juego} alt="juego" />
           </Link>
         </li>
+
+
         <li>
-          <Link to="/Practica">
+          <Link to="/PRS" onClick={
+            ()=>{
+              history.push("/PRS");
+            }
+          }>
             <img className={stylesDiv.ImgStyle} src={Practica} alt="practicas" />
           </Link>
         </li>
+
+
         <li>
           <Link to="/NSRV1" onClick ={
                  ()=>{

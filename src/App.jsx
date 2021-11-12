@@ -68,6 +68,47 @@ import { NADV1 } from "./videos/VIDEODIVIS/NADV1";
 import { NADV2 } from "./videos/VIDEODIVIS/NADV2";
 import { NADV3 } from "./videos/VIDEODIVIS/NADV3";
 
+import { JuegoSumaS} from "./videos/VIDEOSUMA/JuegoSumaS";
+import { JuegoSumaB } from "./videos/VIDEOSUMA/JuegoSumaB";
+import { JuegoSumaP } from "./videos/VIDEOSUMA/JuegoSumaP";
+import { JuegoSumaA } from "./videos/VIDEOSUMA/JuegoSumaA";
+
+import { JuegoRestaS } from "./videos/VIDEORESTA/JuegoRestaS";
+import { JuegoRestaB } from "./videos/VIDEORESTA/JuegoRestaB";
+import { JuegoRestaP } from "./videos/VIDEORESTA/JuegoRestaP";
+import { JuegoRestaA } from "./videos/VIDEORESTA/JuegoRestaA";
+
+import { JuegoMultS } from "./videos/VIDEOMULT/JuegoMultS";
+import { JuegoMultB } from "./videos/VIDEOMULT/JuegoMultB";
+import { JuegoMultP } from "./videos/VIDEOMULT/JuegoMultP";
+import { JuegoMultA } from "./videos/VIDEOMULT/JuegoMultA";
+
+import { JuegoDivS } from "./videos/VIDEODIVIS/JuegoDivS";
+import { JuegoDivB } from "./videos/VIDEODIVIS/JuegoDivB";
+import { JuegoDivP } from "./videos/VIDEODIVIS/JuegoDivP";
+import { JuegoDivA } from "./videos/VIDEODIVIS/JuegoDivA";
+
+import {PDS} from "./practicas/PDS";
+import {PDB} from "./practicas/PDB";
+import {PDP} from "./practicas/PDP";
+import {PDA} from "./practicas/PDA";
+
+import {PSS} from "./practicas/PSS";
+import {PSB} from "./practicas/PSB";
+import {PSP} from "./practicas/PSP";
+import {PSA} from "./practicas/PSA";
+
+import {PRS} from "./practicas/PRS";
+import {PRB} from "./practicas/PRB";
+import {PRP} from "./practicas/PRP";
+import {PRA} from "./practicas/PRA";
+
+import {PMS} from "./practicas/PMS";
+import {PMB} from "./practicas/PMB";
+import {PMP} from "./practicas/PMP";
+import {PMA} from "./practicas/PMA";
+
+
 export function App() {
   return (
     <Router>
@@ -273,6 +314,107 @@ export function App() {
           <Route path = "/NADV3">
             <NADV3/>
           </Route>
+          <Route path = "/JuegoSumaS">
+            <JuegoSumaS/>
+          </Route>
+          <Route path = "/JuegoSumaB">
+            <JuegoSumaB/>
+          </Route>
+          <Route path = "/JuegoSumaP">
+            <JuegoSumaP/>
+          </Route>
+          <Route path = "/JuegoSumaA">
+            <JuegoSumaA/>
+          </Route>
+          <Route path = "/JuegoRestaS">
+            <JuegoRestaS/>
+          </Route>
+          <Route path = "/JuegoRestaB">
+            <JuegoRestaB/>
+          </Route>
+          <Route path = "/JuegoRestaP">
+            <JuegoRestaP/>
+          </Route>
+          <Route path = "/JuegoRestaA">
+            <JuegoRestaA/>
+          </Route>
+          <Route path = "/JuegoMultS">
+            <JuegoMultS/>
+          </Route>
+          <Route path = "/JuegoMultB">
+            <JuegoMultB/>
+          </Route>
+          <Route path = "/JuegoMultP">
+            <JuegoMultP/>
+          </Route>
+          <Route path = "/JuegoMultA">
+            <JuegoMultA/>
+          </Route>
+          <Route path = "/JuegoDivS">
+            <JuegoDivS/>
+          </Route>
+          <Route path = "/JuegoDivB">
+            <JuegoDivB/>
+          </Route>
+          <Route path = "/JuegoDivP">
+            <JuegoDivP/>
+          </Route>
+          <Route path = "/JuegoDivA">
+            <JuegoDivA/>
+          </Route>
+
+          <Route path = "/PDS">
+            <PDS/>
+          </Route>
+          <Route path = "/PDB">
+            <PDB/>
+          </Route>
+          <Route path = "/PDA">
+            <PDA/>
+          </Route>
+          <Route path = "/PDP">
+            <PDP/>
+          </Route>
+
+          <Route path = "/PSS">
+            <PSS/>
+          </Route>
+          <Route path = "/PSB">
+            <PSB/>
+          </Route>
+          <Route path = "/PSA">
+            <PSA/>
+          </Route>
+          <Route path = "/PSP">
+            <PSP/>
+          </Route>
+
+          <Route path = "/PRS">
+            <PRS/>
+          </Route>
+          <Route path = "/PRB">
+            <PRB/>
+          </Route>
+          <Route path = "/PRA">
+            <PRA/>
+          </Route>
+          <Route path = "/PRP">
+            <PRP/>
+          </Route>
+
+          <Route path = "/PMS">
+            <PMS/>
+          </Route>
+          <Route path = "/PMB">
+            <PMB/>
+          </Route>
+          <Route path = "/PMA">
+            <PMA/>
+          </Route>
+          <Route path = "/PMP">
+            <PMP/>
+          </Route>
+
           <Route path="/">
             <Inicio/>
           </Route>

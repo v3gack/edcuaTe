@@ -38,15 +38,21 @@ export function LecSuma(){
      <div className={stylesDiv.LeccionGrid}>
         <div>
           
-          <Link to = "/juegoSS" >
+          <Link to = "/juegoSumaS" >
             <img className={stylesDiv.ImgStyle} src={Juego} alt="juego" />
           </Link>
         </div>
-        <div>
-          <Link to="/Practica">
+        
+        <li>
+          <Link to="/PSB" onClick={
+            ()=>{
+              history.push("/PSB");
+            }
+          }>
             <img className={stylesDiv.ImgStyle} src={Practica} alt="practicas" />
           </Link>
-        </div>
+        </li>
+
         <div>
           <Link to="/NivelSemillaSumaV1" >
             <img className={stylesDiv.ImgStyle} src={Video} alt="video" />

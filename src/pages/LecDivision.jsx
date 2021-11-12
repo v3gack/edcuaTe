@@ -54,16 +54,20 @@ export function LecDivision(){
     <ul className={stylesDiv.LeccionGrid}>
         <li>
           
-          <Link to = "/juegoSS" onClick ={
+          <Link to = "/JuegoDivS" onClick ={
                  ()=>{
-                     history.push("/juegoSS");
+                     history.push("/JuegoDivS");
                  }         
              }>
             <img className={stylesDiv.ImgStyle} src={Juego} alt="juego" />
           </Link>
         </li>
         <li>
-          <Link to="/Practica">
+        <Link to="/PDS" onClick ={
+                 ()=>{
+                     history.push("/PDS");
+                 }         
+             }>
             <img className={stylesDiv.ImgStyle} src={Practica} alt="practicas" />
           </Link>
         </li>

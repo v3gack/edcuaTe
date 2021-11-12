@@ -54,16 +54,20 @@ export function LecSNP(){
     <ul className={stylesDiv.LeccionGrid}>
         <li>
           
-          <Link to = "/juegoSS" onClick ={
+          <Link to = "/JuegoSumaP" onClick ={
                  ()=>{
-                     history.push("/juegoSS");
+                     history.push("/JuegoSumaP");
                  }         
              }>
             <img className={stylesDiv.ImgStyle} src={Juego} alt="juego" />
           </Link>
         </li>
         <li>
-          <Link to="/Practica">
+          <Link to="/PSP" onClick={
+            ()=>{
+              history.push("/PSP");
+            }
+          }>
             <img className={stylesDiv.ImgStyle} src={Practica} alt="practicas" />
           </Link>
         </li>
