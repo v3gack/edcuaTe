@@ -63,7 +63,11 @@ export function LecSNA(){
           </Link>
         </li>
         <li>
-          <Link to="/Practica">
+          <Link to="/PSA" onClick={
+            ()=>{
+              history.push("/PSA");
+            }
+          }>
             <img className={stylesDiv.ImgStyle} src={Practica} alt="practicas" />
           </Link>
         </li>

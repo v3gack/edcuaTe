@@ -63,7 +63,11 @@ export function LecRNP(){
           </Link>
         </li>
         <li>
-          <Link to="/Practica">
+          <Link to="/PRP" onClick={
+            ()=>{
+              history.push("/PRP");
+            }
+          }>
             <img className={stylesDiv.ImgStyle} src={Practica} alt="practicas" />
           </Link>
         </li>

@@ -2,6 +2,7 @@ import React from "react";
 import styles from './video.module.css';
 import {useHistory} from "react-router-dom";
 import { Link } from "react-router-dom";
+
 export function NivelSemillaSumaV1(){
     let history = useHistory();
    return  (<div>

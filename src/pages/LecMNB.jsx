@@ -62,11 +62,19 @@ export function LecMNB(){
             <img className={stylesDiv.ImgStyle} src={Juego} alt="juego" />
           </Link>
         </li>
+
+
         <li>
-          <Link to="/Practica">
+          <Link to="/PMB" onClick={
+            ()=>{
+              history.push("/PMB");
+            }
+          }>
             <img className={stylesDiv.ImgStyle} src={Practica} alt="practicas" />
           </Link>
         </li>
+
+
         <li>
           <Link to="/NBMV1" onClick ={
                  ()=>{

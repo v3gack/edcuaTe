@@ -62,11 +62,17 @@ export function LecDNA(){
             <img className={stylesDiv.ImgStyle} src={Juego} alt="juego" />
           </Link>
         </li>
+
         <li>
-          <Link to="/Practica">
+          <Link to="/PDA" onClick={
+            ()=>{
+              history.push("/PDA");
+            }
+          }>
             <img className={stylesDiv.ImgStyle} src={Practica} alt="practicas" />
           </Link>
         </li>
+        
         <li>
           <Link to="/NADV1" onClick ={
                  ()=>{

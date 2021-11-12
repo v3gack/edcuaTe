@@ -62,11 +62,18 @@ export function LecMNA(){
             <img className={stylesDiv.ImgStyle} src={Juego} alt="juego" />
           </Link>
         </li>
+
         <li>
-          <Link to="/Practica">
+          <Link to="/PMA" onClick={
+            ()=>{
+              history.push("/PMA");
+            }
+          }>
             <img className={stylesDiv.ImgStyle} src={Practica} alt="practicas" />
           </Link>
         </li>
+
+
         <li>
           <Link to="/NAMV1" onClick ={
                  ()=>{

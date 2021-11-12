@@ -62,11 +62,17 @@ export function LecMultiplicacion(){
             <img className={stylesDiv.ImgStyle} src={Juego} alt="juego" />
           </Link>
         </li>
+
         <li>
-          <Link to="/Practica">
+          <Link to="/PMS" onClick={
+            ()=>{
+              history.push("/PMS");
+            }
+          }>
             <img className={stylesDiv.ImgStyle} src={Practica} alt="practicas" />
           </Link>
         </li>
+
         <li>
           <Link to="/NSMV1" onClick ={
                  ()=>{

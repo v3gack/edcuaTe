@@ -62,11 +62,19 @@ export function LecRNB(){
             <img className={stylesDiv.ImgStyle} src={Juego} alt="juego" />
           </Link>
         </li>
+
+
         <li>
-          <Link to="/Practica">
+          <Link to="/PRB" onClick={
+            ()=>{
+              history.push("/PRB");
+            }
+          }>
             <img className={stylesDiv.ImgStyle} src={Practica} alt="practicas" />
           </Link>
         </li>
+
+
         <li>
           <Link to="/NBRV1" onClick ={
                  ()=>{

@@ -88,6 +88,27 @@ import { JuegoDivB } from "./videos/VIDEODIVIS/JuegoDivB";
 import { JuegoDivP } from "./videos/VIDEODIVIS/JuegoDivP";
 import { JuegoDivA } from "./videos/VIDEODIVIS/JuegoDivA";
 
+import {PDS} from "./practicas/PDS";
+import {PDB} from "./practicas/PDB";
+import {PDP} from "./practicas/PDP";
+import {PDA} from "./practicas/PDA";
+
+import {PSS} from "./practicas/PSS";
+import {PSB} from "./practicas/PSB";
+import {PSP} from "./practicas/PSP";
+import {PSA} from "./practicas/PSA";
+
+import {PRS} from "./practicas/PRS";
+import {PRB} from "./practicas/PRB";
+import {PRP} from "./practicas/PRP";
+import {PRA} from "./practicas/PRA";
+
+import {PMS} from "./practicas/PMS";
+import {PMB} from "./practicas/PMB";
+import {PMP} from "./practicas/PMP";
+import {PMA} from "./practicas/PMA";
+
+
 export function App() {
   return (
     <Router>
@@ -341,6 +362,59 @@ export function App() {
           <Route path = "/JuegoDivA">
             <JuegoDivA/>
           </Route>
+
+          <Route path = "/PDS">
+            <PDS/>
+          </Route>
+          <Route path = "/PDB">
+            <PDB/>
+          </Route>
+          <Route path = "/PDA">
+            <PDA/>
+          </Route>
+          <Route path = "/PDP">
+            <PDP/>
+          </Route>
+
+          <Route path = "/PSS">
+            <PSS/>
+          </Route>
+          <Route path = "/PSB">
+            <PSB/>
+          </Route>
+          <Route path = "/PSA">
+            <PSA/>
+          </Route>
+          <Route path = "/PSP">
+            <PSP/>
+          </Route>
+
+          <Route path = "/PRS">
+            <PRS/>
+          </Route>
+          <Route path = "/PRB">
+            <PRB/>
+          </Route>
+          <Route path = "/PRA">
+            <PRA/>
+          </Route>
+          <Route path = "/PRP">
+            <PRP/>
+          </Route>
+
+          <Route path = "/PMS">
+            <PMS/>
+          </Route>
+          <Route path = "/PMB">
+            <PMB/>
+          </Route>
+          <Route path = "/PMA">
+            <PMA/>
+          </Route>
+          <Route path = "/PMP">
+            <PMP/>
+          </Route>
+
           <Route path="/">
             <Inicio/>
           </Route>

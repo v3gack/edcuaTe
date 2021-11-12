@@ -3,6 +3,7 @@ import Juego from "../images/juego1.png";
 import Practica from "../images/practica.png";
 import Video from "../images/video1.png";
 
+
 import stylesDiv from "./LecDivision.module.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
@@ -62,11 +63,21 @@ export function LecRNA(){
             <img className={stylesDiv.ImgStyle} src={Juego} alt="juego" />
           </Link>
         </li>
+
         <li>
-          <Link to="/Practica">
+          <Link to="/PRA" onClick={
+            ()=>{
+              history.push("/PRA");
+            }
+          }>
             <img className={stylesDiv.ImgStyle} src={Practica} alt="practicas" />
           </Link>
-        </li>
+        </li>     
+
+
+
+
+    
         <li>
           <Link to="/NARV1" onClick ={
                  ()=>{
@@ -80,3 +91,4 @@ export function LecRNA(){
       </main>
   );
 }
+export default LecRNA;
