@@ -31,7 +31,7 @@ export function LecSuma(){
         </div>
         <div>
         <Link className = {stylesDiv.sub} to ="/LecSNA" >
-            Nivel Arbol
+            Nivel Árbol
         </Link>
         </div>
     </div>

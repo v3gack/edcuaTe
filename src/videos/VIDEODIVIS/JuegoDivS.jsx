@@ -4,8 +4,8 @@ import {useHistory} from "react-router-dom";
 import { Link } from "react-router-dom";
 export function JuegoDivS(){
     let history = useHistory();
-   return  (<div>
-       <h1 className = {styles.title}>NIVEL SEMILLA - DIVISION</h1>
+   return  (<div><br/><br/>
+       <h1 className = {styles.title}>NIVEL SEMILLA - DIVISIÓN</h1>
        <ul  >
            <li className = {styles.punto}>
                <div className = {styles.video} >

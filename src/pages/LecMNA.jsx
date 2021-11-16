@@ -47,7 +47,7 @@ export function LecMNA(){
                      history.push("/LecMNA");
                  }         
              }>
-            Nivel Arbol
+            Nivel Árbol
         </Link>
         </li>
     </ul>

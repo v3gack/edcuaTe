@@ -4,7 +4,7 @@ import {useHistory} from "react-router-dom";
 import { Link } from "react-router-dom";
 export function JuegoSumaS(){
     let history = useHistory();
-   return  (<div>
+   return  (<div><br/><br/>
        <h1 className = {styles.title}>NIVEL SEMILLA - SUMA</h1>
        <ul  >
            <li className = {styles.punto}>
