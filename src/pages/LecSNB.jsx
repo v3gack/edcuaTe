@@ -47,7 +47,7 @@ export function LecSNB(){
                      history.push("/LecSNB");
                  }         
              }>
-            Nivel Arbol
+            Nivel Árbol
         </Link>
         </li>
     </ul>

@@ -113,3 +113,17 @@
   text-align: center;
   overflow: hidden;
 }
+@media (max-width: 580px) {
+  .title {
+    text-align: center;
+    font-size: 30px;
+  }
+  .botonAtras {
+    padding: 10px 30px;
+    top: 11%;
+    left: 5%;
+    position: absolute;
+    justify-content: center;
+    border-radius: 5px;
+  }
+}

@@ -47,7 +47,7 @@ export function LecDNA(){
                      history.push("/LecDNA");
                  }         
              }>
-            Nivel Arbol
+            Nivel Árbol
         </Link>
         </li>
     </ul>
