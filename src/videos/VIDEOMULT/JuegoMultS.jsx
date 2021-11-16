@@ -4,7 +4,9 @@ import {useHistory} from "react-router-dom";
 import { Link } from "react-router-dom";
 export function JuegoMultS(){
     let history = useHistory();
-   return  (<div><br/><br/>
+   return  (<div>
+       <br/><br/>
+       <br/><br/>
        <h1 className = {styles.title}>NIVEL SEMILLA - MULTIPLICACIÓN</h1>
        <ul  >
            <li className = {styles.punto}>

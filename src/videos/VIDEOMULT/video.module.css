@@ -113,10 +113,12 @@
   text-align: center;
   overflow: hidden;
 }
-@media (max-width: 580px) {
+@media (max-width: 700px) {
   .title {
     text-align: center;
     font-size: 30px;
+    top: 20%;
+    margin-top: 10%;
   }
   .botonAtras {
     padding: 10px 30px;
@@ -125,5 +127,23 @@
     position: absolute;
     justify-content: center;
     border-radius: 5px;
+  }
+  .videoSiguiente{
+    padding: 10px 50px;
+    left: 50%;
+    top: 65%;
+  }
+  .videoAnterior{
+    padding: 10px 50px;
+    top: 65%;
+  }
+  .video iframe,
+  .video object,
+  .video embed {
+  height: 60%;
+  left: 0;
+  position: absolute;
+  top: 10%;
+  width: 95%;
   }
 }
