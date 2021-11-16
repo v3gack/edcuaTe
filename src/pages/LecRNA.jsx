@@ -48,7 +48,7 @@ export function LecRNA(){
                      history.push("/LecRNA");
                  }         
              }>
-            Nivel Arbol
+            Nivel Árbol
         </Link>
         </li>
     </ul>

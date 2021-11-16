@@ -23,7 +23,7 @@ export function NASV3(){
             </button>
             <button className = {styles.videoAnterior} onClick ={
                  ()=>{
-                     history.push("/NPSV2");
+                     history.push("/NASV2");
                  }         
              }>
                 Video Anterior

@@ -6,6 +6,7 @@
   list-style: none;
   margin-top: -7px;
   font-family: "Butterfly Kids", cursive;
+  text-align: center;
   /* max-width: 97.8%; */
 }
 .sub {
@@ -98,12 +99,58 @@
 }
 @media (max-width: 520px) {
   .LeccionGrid {
+    list-style: none;
+    display: grid;
+
+    gap: 130px;
+    padding: 20px;
+    justify-content: flex-end;
+    margin-top: 10%;
   }
   .ImgStyle {
-    padding-left: 90px;
+    padding-right: 0px;
     width: 200px;
+    justify-content: flex-end;
+    margin-left: 150px;
+  }
+
+  .sub {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+  }
+  .semilla {
+    text-decoration: none;
+    color: rgb(250, 183, 0);
+    font-size: 25px;
   }
   .niveles {
-    padding: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(136, 11, 252);
+    list-style: none;
+    margin-top: 0px;
+    font-family: "Butterfly Kids", cursive;
+    width: 130%;
+    text-align: center;
+    /* max-width: 97.8%; */
+  }
+}
+@media (max-width: 460px) {
+  .LeccionGrid {
+    list-style: none;
+    display: grid;
+
+    gap: 130px;
+    padding: 20px;
+    justify-content: flex-end;
+    margin-top: 10%;
+  }
+  .ImgStyle {
+    padding-right: 0px;
+    width: 200px;
+    justify-content: flex-end;
+    margin-left: 300px;
   }
 }

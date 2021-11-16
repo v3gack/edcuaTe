@@ -47,7 +47,7 @@ export function LecSNP(){
                      history.push("/LecSNA");
                  }         
              }>
-            Nivel Arbol
+            Nivel Árbol
         </Link>
         </li>
     </ul>
