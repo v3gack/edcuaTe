@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export function NBMV1(){
     let history = useHistory();
    return  (<div>
-       <h1 className = {styles.title}>NIVEL BROTE - MULTIPLICACION</h1>
+       <h1 className = {styles.title}>NIVEL BROTE - MULTIPLICACIÓN</h1>
        <ul  >
            <li className = {styles.punto}>
                <div className = {styles.video} >

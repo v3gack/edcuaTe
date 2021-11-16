@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export function NADV2(){
     let history = useHistory();
    return  (<div>
-       <h1 className = {styles.title}>NIVEL ARBOL - DIVISION</h1>
+       <h1 className = {styles.title}>NIVEL ÁRBOL - DIVISIÓN</h1>
        <ul  >
            <li className = {styles.punto}>
                <div className = {styles.video} >

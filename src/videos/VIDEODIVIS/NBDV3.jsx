@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export function NBDV3(){
     let history = useHistory();
    return  (<div>
-       <h1 className = {styles.title}>NIVEL BROTE - DIVISION</h1>
+       <h1 className = {styles.title}>NIVEL BROTE - DIVISIÓN</h1>
        <ul  >
            <li className = {styles.punto}>
                <div className = {styles.video} >
