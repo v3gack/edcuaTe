@@ -113,12 +113,12 @@
   text-align: center;
   overflow: hidden;
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .title {
     text-align: center;
     font-size: 30px;
-    top: 20%;
-    margin-top: 10%;
+    /* top: 30%; */
+    margin-top: 16%;
   }
   .botonAtras {
     padding: 10px 30px;
@@ -128,22 +128,27 @@
     justify-content: center;
     border-radius: 5px;
   }
-  .videoSiguiente{
+  .videoSiguiente {
     padding: 10px 50px;
-    left: 50%;
-    top: 65%;
+    left: 600px;
+    top: -40px;
+    position: relative;
   }
-  .videoAnterior{
+  .videoAnterior {
     padding: 10px 50px;
-    top: 65%;
+    top: 75%;
+    position: relative;
   }
   .video iframe,
   .video object,
   .video embed {
-  height: 60%;
-  left: 0;
-  position: absolute;
-  top: 10%;
-  width: 95%;
+    height: 60%;
+    left: 0;
+    position: absolute;
+    top: 10%;
+    width: 95%;
+  }
+  :root {
+    width: 900px;
   }
 }
