@@ -47,7 +47,7 @@
 .videoAnterior {
   padding: 20px 100px;
   border: 2px solid black;
-  top: 92%;
+  top: 100%;
   left: 5%;
   position: absolute;
   display: flex;
@@ -61,7 +61,7 @@
 .videoSiguiente {
   padding: 20px 100px;
   border: 2px solid black;
-  top: 92%;
+  top: 100%;
   left: 78%;
   position: absolute;
   display: flex;
