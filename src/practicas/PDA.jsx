@@ -6,7 +6,7 @@ export function PDA(){
     let history = useHistory();
     const questions = [
 		{
-			questionText: '2145%5',
+			questionText: '2145/5',
 			answerOptions: [
 				{ answerText: '429', isCorrect: true },
 				{ answerText: '426', isCorrect: false },
@@ -15,7 +15,7 @@ export function PDA(){
 			],
 		},
 		{
-			questionText: '3060%612',
+			questionText: '3060/612',
 			answerOptions: [
 				{ answerText: '4', isCorrect: false },
 				{ answerText: '5', isCorrect: true },
@@ -24,7 +24,7 @@ export function PDA(){
 			],
 		},
 		{
-			questionText: '1000%5',
+			questionText: '1000/5',
 			answerOptions: [
 				{ answerText: '200', isCorrect: true },
 				{ answerText: '120', isCorrect: false },
@@ -33,7 +33,7 @@ export function PDA(){
 			],
 		},
 		{
-			questionText: '7896%14',
+			questionText: '7896/14',
 			answerOptions: [
 				{ answerText: '566', isCorrect: false },
 				{ answerText: '564', isCorrect: true },
@@ -42,7 +42,7 @@ export function PDA(){
 			],
 		},
 		{
-			questionText: '1088%272',
+			questionText: '1088/272',
 			answerOptions: [
 				{ answerText: '4', isCorrect: true },
 				{ answerText: '6', isCorrect: false },
@@ -93,11 +93,11 @@ export function PDA(){
 				<>
 					<div className={styles.questionsection}>
 						<div className={styles.questioncount}>
-							<h1 className={styles.titulo}>Pregunta {currentQuestion + 1}/{questions.length}</h1>	
+							<h1 className={styles.titulo}>Pregunta {currentQuestion + 1}-{questions.length}</h1>	
 						</div>
 						<div className={styles.questiontext}>{questions[currentQuestion].questionText}</div>
 					</div>
-					<div className={styles.answersection}>
+					<div className={styles.answersection}>	
 						{questions[currentQuestion].answerOptions.map((answerOption) => (
 							<button className = {styles.bt} onClick={() => handleAnswerOptionClick(answerOption.isCorrect)}>{answerOption.answerText}</button>
 						))}

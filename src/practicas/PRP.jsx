@@ -93,7 +93,7 @@ export function PRP(){
 				<>
 					<div className={styles.questionsection}>
 						<div className={styles.questioncount}>
-							<h1 className={styles.titulo}>Pregunta {currentQuestion + 1}/{questions.length}</h1>	
+							<h1 className={styles.titulo}>Pregunta {currentQuestion + 1}-{questions.length}</h1>	
 						</div>
 						<div className={styles.questiontext}>{questions[currentQuestion].questionText}</div>
 					</div>
