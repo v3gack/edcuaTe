@@ -42,6 +42,7 @@
 
     }
     
+
 }
 .answersection{
     align-items: center;
@@ -50,7 +51,9 @@
     display: flex;
     width: 700px;
     height: 40px;
-    
+    top: 10%;  
+    color: rgb(250, 183, 0);
+    padding: 0px 0px 10px 0px; 
     top: 160%;
     background-color: black;
     background-image:url(../images/astronauta.jpg);

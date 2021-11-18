@@ -23,7 +23,8 @@
   justify-content: center;
 }
 h1 {
-  color: aliceblue;
+  color: rgb(255, 153, 0);
+
   text-align: center;
   font-size: 60px;
   font-family: "Butterfly Kids", cursive;
@@ -36,7 +37,7 @@ h1 {
   font-family: "Butterfly Kids", cursive; */
 }
 .texto2 {
-  font-size: 4vw;
+  font-size: 3vw;
   font-family: "Butterfly Kids", cursive;
   color: white;
 }

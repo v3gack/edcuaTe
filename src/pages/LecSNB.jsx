@@ -47,16 +47,16 @@ export function LecSNB(){
                      history.push("/LecSNB");
                  }         
              }>
-            Nivel Arbol
+            Nivel Árbol
         </Link>
         </li>
     </ul>
     <ul className={stylesDiv.LeccionGrid}>
         <li>
           
-          <Link to = "/juegoSS" onClick ={
+          <Link to = "/JuegoSumaB" onClick ={
                  ()=>{
-                     history.push("/juegoSS");
+                     history.push("/JuegoSumaB");
                  }         
              }>
             <img className={stylesDiv.ImgStyle} src={Juego} alt="juego" />

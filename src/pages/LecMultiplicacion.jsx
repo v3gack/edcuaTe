@@ -47,16 +47,16 @@ export function LecMultiplicacion(){
                      history.push("/LecMNA");
                  }         
              }>
-            Nivel Arbol
+            Nivel Árbol
         </Link>
         </li>
     </ul>
     <ul className={stylesDiv.LeccionGrid}>
         <li>
           
-          <Link to = "/juegoSS" onClick ={
+          <Link to = "/JuegoMultS" onClick ={
                  ()=>{
-                     history.push("/juegoSS");
+                     history.push("/JuegoMultS");
                  }         
              }>
             <img className={stylesDiv.ImgStyle} src={Juego} alt="juego" />
