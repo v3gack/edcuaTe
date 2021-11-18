@@ -6,7 +6,7 @@ export function PDS(){
     let history = useHistory();
     const questions = [
 		{
-			questionText: '8/2',
+			questionText: '8÷2',
 			answerOptions: [
 				{ answerText: '1', isCorrect: false },
 				{ answerText: '2', isCorrect: false },
