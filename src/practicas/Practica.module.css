@@ -1,8 +1,7 @@
-
 .ini{
-   
-    height: 80%;
-} 
+    width: 100%;
+    height: 100%;  
+}
 .ap{
     
     margin: auto;
@@ -20,26 +19,53 @@
     width: 120px;
     height: 40px;
     top: 10px;
-    left: 40px;
-    
+    left: 40px;    
 }
 .tituloP{
+    position:absolute;
+    margin: auto;
+    top: 30%;  
+    color: yellow;
+    padding: 0px 0px 10px 0px; 
+    height: 50%;
+    width: 100%;    
+}
+@media (max-width:700px) {
+    .tituloP{
+        font-size: 40px;
+        left: 50%;
+    }
+    .answersection{
+        
+        position: absolute;
+
+
+    }
     
+
+}
+.answersection{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    width: 700px;
+    height: 40px;
     top: 10%;  
     color: rgb(250, 183, 0);
-    padding: 0px 0px 10px 0px;
-    
-    height: 60px;
-    width: 100%;
+    padding: 0px 0px 10px 0px; 
+    top: 160%;
+    background-color: black;
+    background-image:url(../images/astronauta.jpg);
+    border-radius: 10px;
+    border: 10px solid white;  
+  
 }
+
 .bt{
-    display: inline-block;
-    
     border-radius: 5px;
-    position:relative;
-    left: 20%;
     height: 30px;
-    width: 70px; 
+    width: 80px;
     text-align: center;
     
 }
@@ -54,21 +80,32 @@
 
 }
 .questionsection{
-    height: 100%;
+    position: absolute;
+    top: 50%;
+    height: 110%;
     width: 700px;
     border-radius: 10px;  
     align-items: center;
     background-image:url(../images/astronauta.jpg);
     background-size: cover;
-    border: 10px solid white;
-          
+    border: 10px solid white;       
 }
+.scoresection{
+    position: absolute;
+    top: 50%;
+    height: 110%;
+    width: 700px;
+    background-image:url(../images/astronauta.jpg);
+    background-size: cover;
+    border: 10px solid white;
+    border-radius: 10px;
+}
+
 .questioncount{
     position: relative;
     bottom: 10%;    
 }
 .questiontext{
-    
     font-size: 50px; 
     font-family: "Butterfly Kids", cursive;
     position: relative; 
@@ -77,31 +114,12 @@
     padding:10px;
     left: 45%;
     width: 45%;  
-    
     font-weight: bolder;
     transform:scaleY(2);
-    transform:scaleX(1);
+    transform:scaleX(1);   
+}
 
-   
-}
-.answersection{
-    position: relative;
-    bottom: 30%;
-    left: 40%;
-    margin: auto;
-    padding: 10px;
-    background-color:none;
-    
-}
-.scoresection{
-    background-color: white ;
-    height: 100%;
-    width: 700px;
-    background-image:url(../images/astronauta.jpg);
-    background-size: cover;
-    border: 10px solid white;
-    border-radius: 10px;
-}
+
 .respuesta{
     width: 300px;
     position: relative;
@@ -111,6 +129,4 @@
     font-size: 27px;
     font-weight: bolder;
     font-family: "Butterfly Kids", cursive;    
-
-
 }
