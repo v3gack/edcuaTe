@@ -6,7 +6,7 @@ export function PDP(){
     let history = useHistory();
     const questions = [
 		{
-			questionText: '102/6',
+			questionText: '102÷6',
 			answerOptions: [
 				{ answerText: '15', isCorrect: false },
 				{ answerText: '13', isCorrect: false },
@@ -15,7 +15,7 @@ export function PDP(){
 			],
 		},
 		{
-			questionText: '120/10',
+			questionText: '120÷10',
 			answerOptions: [
 				{ answerText: '14', isCorrect: false },
 				{ answerText: '12', isCorrect: true },
@@ -24,7 +24,7 @@ export function PDP(){
 			],
 		},
 		{
-			questionText: '645/15',
+			questionText: '645÷15',
 			answerOptions: [
 				{ answerText: '43', isCorrect: true },
 				{ answerText: '45', isCorrect: false },
@@ -33,7 +33,7 @@ export function PDP(){
 			],
 		},
 		{
-			questionText: '360/6',
+			questionText: '360÷6',
 			answerOptions: [
 				{ answerText: '60', isCorrect: true },
 				{ answerText: '70', isCorrect: false },
@@ -42,7 +42,7 @@ export function PDP(){
 			],
 		},
 		{
-			questionText: '245/5',
+			questionText: '245÷5',
 			answerOptions: [
 				{ answerText: '47', isCorrect: false },
 				{ answerText: '45', isCorrect: false },
