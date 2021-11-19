@@ -21,7 +21,7 @@ export function NivelSemillaSumaV1(){
                      history.push("/suma");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
             {/* <button className = {styles.videoAnterior} onClick ={
                  ()=>{

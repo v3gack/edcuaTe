@@ -19,7 +19,7 @@ export function JuegoDivA(){
                      history.push("/LecDNA");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
             
     </div> 

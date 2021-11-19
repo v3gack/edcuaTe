@@ -19,7 +19,7 @@ export function JuegoRestaS(){
                      history.push("/resta");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
             
     </div> 

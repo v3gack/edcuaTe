@@ -19,7 +19,7 @@ export function NSRV3(){
                      history.push("/resta");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
             <button className = {styles.videoAnterior} onClick ={
                  ()=>{

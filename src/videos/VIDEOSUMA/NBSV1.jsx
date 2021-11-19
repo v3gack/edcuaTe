@@ -19,7 +19,7 @@ export function NBSV1(){
                      history.push("/LecSNB");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
             {/* <button className = {styles.videoAnterior} onClick ={
                  ()=>{

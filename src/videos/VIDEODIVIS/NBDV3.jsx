@@ -19,7 +19,7 @@ export function NBDV3(){
                      history.push("/LecDNB");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
            <button className = {styles.videoAnterior} onClick ={
                  ()=>{

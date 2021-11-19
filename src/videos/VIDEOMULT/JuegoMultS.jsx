@@ -21,7 +21,7 @@ export function JuegoMultS(){
                      history.push("/multiplicacion");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
             
     </div> 

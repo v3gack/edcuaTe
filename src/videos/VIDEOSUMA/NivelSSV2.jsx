@@ -19,7 +19,7 @@ export function NivelSSV2(){
                      history.push("/suma");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
              <button className = {styles.videoAnterior} onClick ={
                  ()=>{

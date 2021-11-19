@@ -80,9 +80,9 @@ export function PMA(){
                      history.push("/LecMNA");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
-			<h1 className={styles.tituloP}>MULTIPLICACIÓN- NIVEL ARBOL</h1>
+			<h1 className={styles.tituloP}>MULTIPLICACIÓN- NIVEL ÁRBOL</h1>
         <div className={styles.ap}>
 			{showScore ? (
 				<div className={styles.scoresection}>

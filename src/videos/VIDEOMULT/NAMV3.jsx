@@ -19,7 +19,7 @@ export function NAMV3(){
                      history.push("/LecMNA");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
             <button className = {styles.videoAnterior} onClick ={
                  ()=>{

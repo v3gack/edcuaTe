@@ -28,7 +28,7 @@ export function PRB(){
 			answerOptions: [
 				{ answerText: '60', isCorrect: true },
 				{ answerText: '70', isCorrect: false },
-				{ answerText: '60', isCorrect: false },
+				{ answerText: '40', isCorrect: false },
 				{ answerText: '50', isCorrect: false },
 			],
 		},
@@ -80,7 +80,7 @@ export function PRB(){
                      history.push("/LecRNB");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
 			<h1 className={styles.tituloP}>RESTA - NIVEL BROTE</h1>
         <div className={styles.ap}>

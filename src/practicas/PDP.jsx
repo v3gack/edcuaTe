@@ -80,7 +80,7 @@ export function PDP(){
                      history.push("/LecDNP");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
 			<h1 className={styles.tituloP}>DIVISIÓN - NIVEL PLANTA</h1>
         <div className={styles.ap}>
