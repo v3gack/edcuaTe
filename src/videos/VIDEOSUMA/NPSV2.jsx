@@ -19,7 +19,7 @@ export function NPSV2(){
                      history.push("/LecSNP");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
             <button className = {styles.videoAnterior} onClick ={
                  ()=>{

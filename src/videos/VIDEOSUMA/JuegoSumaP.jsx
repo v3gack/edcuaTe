@@ -19,7 +19,7 @@ export function JuegoSumaP(){
                      history.push("/LecSNP");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
             
     </div> 

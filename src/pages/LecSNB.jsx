@@ -63,9 +63,9 @@ export function LecSNB(){
           </Link>
         </li>
         <li>
-          <Link to="/PSS" onClick={
+          <Link to="/PSB" onClick={
             ()=>{
-              history.push("/PSS");
+              history.push("/PSB");
             }
           }>
             <img className={stylesDiv.ImgStyle} src={Practica} alt="practicas" />

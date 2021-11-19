@@ -19,7 +19,7 @@ export function NSMV2(){
                      history.push("/multiplicacion");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
             <button className = {styles.videoAnterior} onClick ={
                  ()=>{

@@ -80,9 +80,9 @@ export function PSA(){
                      history.push("/LecSNA");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
-			<h1 className={styles.tituloP}>SUMA - NIVEL ARBOL</h1>
+			<h1 className={styles.tituloP}>SUMA - NIVEL ÁRBOL</h1>
         <div className={styles.ap}>
 			{showScore ? (
 				<div className={styles.scoresection}>

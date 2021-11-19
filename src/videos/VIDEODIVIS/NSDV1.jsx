@@ -19,7 +19,7 @@ export function NSDV1(){
                      history.push("/division");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
             {/* <button className = {styles.videoAnterior} onClick ={
                  ()=>{

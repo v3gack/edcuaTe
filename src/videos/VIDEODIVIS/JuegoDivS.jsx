@@ -19,7 +19,7 @@ export function JuegoDivS(){
                      history.push("/division");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
             
     </div> 

@@ -19,7 +19,7 @@ export function JuegoSumaS(){
                      history.push("/suma");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
             
     </div> 

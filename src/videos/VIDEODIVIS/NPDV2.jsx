@@ -19,7 +19,7 @@ export function NPDV2(){
                      history.push("/LecDNP");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
             <button className = {styles.videoAnterior} onClick ={
                  ()=>{
