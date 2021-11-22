@@ -51,6 +51,13 @@ export function LecDNA(){
         </Link>
         </li>
     </ul>
+    <button className = {stylesDiv.botonAtras} onClick ={
+                 ()=>{
+                     history.push("/homepage");
+                 }         
+             }>
+                🠔atrás
+            </button>
     <ul className={stylesDiv.LeccionGrid}>
         <li>
           

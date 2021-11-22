@@ -21,6 +21,8 @@
   position: absolute;
   display: flex;
   justify-content: center;
+
+  font-family: "Butterfly Kids", cursive;
 }
 h1 {
   color: rgb(255, 153, 0);
