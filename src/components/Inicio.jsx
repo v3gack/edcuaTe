@@ -45,8 +45,17 @@ export function Inicio() {
           history.push("/homepage");
         }}
       >
-        Inicio sin Sesión
+        Aprende
       </button>
+
+      <button
+        className={styleInicio.bttIni}
+        onClick={() => {
+          history.push("/Login");
+        }}
+      >
+        Iniciar Sesión
+      </button>      
     </div>
   );
 }

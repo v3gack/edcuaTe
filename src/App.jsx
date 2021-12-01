@@ -107,6 +107,8 @@ import {PMS} from "./practicas/PMS";
 import {PMB} from "./practicas/PMB";
 import {PMP} from "./practicas/PMP";
 import {PMA} from "./practicas/PMA";
+/* Login */
+import {Login} from "./login/Login";
 
 
 export function App() {
@@ -413,6 +415,11 @@ export function App() {
           </Route>
           <Route path = "/PMP">
             <PMP/>
+          </Route>
+
+          {/* Login */}
+          <Route path = "/Login">
+            <Login/>
           </Route>
 
           <Route path="/">

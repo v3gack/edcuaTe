@@ -6,7 +6,7 @@ export function PDS(){
     let history = useHistory();
     const questions = [
 		{
-			questionText: '8/2',
+			questionText: '8÷2',
 			answerOptions: [
 				{ answerText: '1', isCorrect: false },
 				{ answerText: '2', isCorrect: false },
@@ -15,7 +15,7 @@ export function PDS(){
 			],
 		},
 		{
-			questionText: '6/3',
+			questionText: '6÷3',
 			answerOptions: [
 				{ answerText: '7', isCorrect: false },
 				{ answerText: '2', isCorrect: true },
@@ -24,7 +24,7 @@ export function PDS(){
 			],
 		},
 		{
-			questionText: '10/5',
+			questionText: '10÷5',
 			answerOptions: [
 				{ answerText: '2', isCorrect: true },
 				{ answerText: '1', isCorrect: false },
@@ -33,7 +33,7 @@ export function PDS(){
 			],
 		},
 		{
-			questionText: '2/2',
+			questionText: '2÷2',
 			answerOptions: [
 				{ answerText: '7', isCorrect: false },
 				{ answerText: '4', isCorrect: false },
@@ -42,7 +42,7 @@ export function PDS(){
 			],
 		},
 		{
-			questionText: '9/1',
+			questionText: '9÷1',
 			answerOptions: [
 				{ answerText: '6', isCorrect: false },
 				{ answerText: '1', isCorrect: false },

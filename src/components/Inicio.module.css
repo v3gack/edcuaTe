@@ -22,6 +22,25 @@
   display: flex;
   justify-content: center;
 }
+.bttIni {
+  /* margin-right: 5%; */
+  padding: 20px;
+  /* float: right; */
+  border-radius: 5px;
+  background-color: rgb(221, 127, 38);
+  border: 2px solid white;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  max-width: 200px;
+
+  height: auto;
+  left: 60%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
 h1 {
   color: rgb(255, 153, 0);
 

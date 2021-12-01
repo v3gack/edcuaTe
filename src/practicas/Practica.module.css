@@ -35,12 +35,11 @@
         font-size: 40px;
         left: 50%;
     }
-    .answersection{
-        
-        position: absolute;
-
-
+    .questionsection{
+       position: absolute; 
+        width: 300px;
     }
+
     
 
 }
@@ -58,8 +57,7 @@
     background-color: black;
     background-image:url(../images/astronauta.jpg);
     border-radius: 10px;
-    border: 10px solid white;  
-  
+    border: 10px solid white;    
 }
 
 .bt{
@@ -130,3 +128,4 @@
     font-weight: bolder;
     font-family: "Butterfly Kids", cursive;    
 }
+

@@ -44,7 +44,7 @@ export function PMS(){
 		{
 			questionText: '3x3',
 			answerOptions: [
-				{ answerText: '8', isCorrect: false },
+				{ answerText: '6', isCorrect: false },
 				{ answerText: '4', isCorrect: false },
 				{ answerText: '8', isCorrect: false },
 				{ answerText: '9', isCorrect: true },
@@ -93,7 +93,7 @@ export function PMS(){
 				<>
 					<div className={styles.questionsection}>
 						<div className={styles.questioncount}>
-							<h1 className={styles.titulo}>Pregunta {currentQuestion + 1}-{questions.length}</h1>	
+							<h1 className={styles.titulo}>Pregunta {currentQuestion + 1}/{questions.length}</h1>	
 						</div>
 						<div className={styles.questiontext}>{questions[currentQuestion].questionText}</div>
 					</div>

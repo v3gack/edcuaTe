@@ -37,7 +37,7 @@ export function PRA(){
 			answerOptions: [
 				{ answerText: '6031', isCorrect: false },
 				{ answerText: '6131', isCorrect: false },
-				{ answerText: '6031', isCorrect: false },
+				{ answerText: '6310', isCorrect: false },
 				{ answerText: '6061', isCorrect: true },
 			],
 		},
@@ -93,7 +93,7 @@ export function PRA(){
 				<>
 					<div className={styles.questionsection}>
 						<div className={styles.questioncount}>
-							<h1 className={styles.titulo}>Pregunta {currentQuestion + 1}-{questions.length}</h1>	
+							<h1 className={styles.titulo}>Pregunta {currentQuestion + 1}/{questions.length}</h1>	
 						</div>
 						<div className={styles.questiontext}>{questions[currentQuestion].questionText}</div>
 					</div>
