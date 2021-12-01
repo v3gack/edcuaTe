@@ -53,7 +53,8 @@ export class Login extends Component /*export function*/ {
 
     componentDidMount() {
         if(cookies.get('username')){
-            /*window.location.href="./Inicio";*/
+            /*window.location.href="./Inicio"; */
+            /*lo comente por que me da error al entrar sin iniciar sesion */ 
         }
     }
     
