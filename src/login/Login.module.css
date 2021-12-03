@@ -23,3 +23,20 @@
     margin-top: 20px;
     height: 50px;
   }
+  .atrasContainer{
+    background-color: aqua;
+  }
+  .btnAtras{
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 50px;
+    width: 120px;
+    font-size: larger;
+  }
+  .logoPagina{
+    background-image:url(../images/EducateLOGO.png);
+    background-color: black;
+
+  }

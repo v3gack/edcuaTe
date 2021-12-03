@@ -39,7 +39,7 @@ export class Login extends Component /*export function*/ {
                 cookies.set('apellido_materno', respuesta.apellido_materno, {path: "/"});
                 cookies.set('nombre', respuesta.nombre, {path: "/"});
                 cookies.set('username', respuesta.username, {path: "/"});
-                alert(`Bienvenid@ ${respuesta.nombre} ${respuesta.apellido_paterno}`);
+                alert(`Bienvenid@`);
                 window.location.href="./homepage";
             }else{
                 alert('El usuario o la contraseña no son correctos');
@@ -60,9 +60,16 @@ export class Login extends Component /*export function*/ {
     
 
     render() {
-        return (
+        
+        return (  
+     <div> 
+      <button className={styles.btnAtras} onClick={()=>  window.location.href="./"}>atrás</button>                   
     <div className={styles.containerPrincipal}>
+        
         <div className={styles.containerSecundario}>
+        <div className={styles.logoPagina}>
+            kfmlmlsmfmfsllm
+            </div> 
           <div className={styles.formgroup}>
             <label>Usuario: </label>
             <br />
@@ -86,6 +93,8 @@ export class Login extends Component /*export function*/ {
           </div>
         </div>
       </div>
+      </div> 
+      
         );
     }
 }
