@@ -68,7 +68,7 @@ export class Login extends Component /*export function*/ {
         
         <div className={styles.containerSecundario}>
         <div className={styles.logoPagina}>
-            kfmlmlsmfmfsllm
+            
             </div> 
           <div className={styles.formgroup}>
             <label>Usuario: </label>
