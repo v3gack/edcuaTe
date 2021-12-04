@@ -1,4 +1,5 @@
 import { HomePage } from "./components/HomePage";
+import  Material  from "./components/material";
 import { LecSuma } from "./pages/LecSuma";
 import { LecResta } from "./pages/LecResta";
 import { LecMultiplicacion } from "./pages/LecMultiplicacion";
@@ -414,7 +415,9 @@ export function App() {
           <Route path = "/PMP">
             <PMP/>
           </Route>
-
+          <Route path ="/material">
+            <Material/>
+          </Route>  
           <Route path="/">
             <Inicio/>
           </Route>
