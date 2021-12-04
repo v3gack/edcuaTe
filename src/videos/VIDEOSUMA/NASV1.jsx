@@ -19,7 +19,7 @@ export function NASV1(){
                      history.push("/LecSNA");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
             {/* <button className = {styles.videoAnterior} onClick ={
                  ()=>{

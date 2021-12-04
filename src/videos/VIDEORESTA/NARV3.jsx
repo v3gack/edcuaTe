@@ -19,7 +19,7 @@ export function NARV3(){
                      history.push("/LecRNA");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
             <button className = {styles.videoAnterior} onClick ={
                  ()=>{

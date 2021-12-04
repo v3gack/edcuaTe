@@ -19,7 +19,7 @@ export function JuegoMultB(){
                      history.push("/LecMNB");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
             
     </div> 

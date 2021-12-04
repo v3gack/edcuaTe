@@ -109,6 +109,7 @@ import {PMP} from "./practicas/PMP";
 import {PMA} from "./practicas/PMA";
 /* Login */
 import {Login} from "./login/Login";
+import  Menu  from "./login/Menu";
 
 
 export function App() {
@@ -421,6 +422,11 @@ export function App() {
           <Route path = "/Login">
             <Login/>
           </Route>
+
+          <Route path = "/Menu">
+            <Menu/>
+          </Route>
+
 
           <Route path="/">
             <Inicio/>

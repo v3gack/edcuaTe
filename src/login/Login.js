@@ -40,7 +40,7 @@ export class Login extends Component /*export function*/ {
                 cookies.set('nombre', respuesta.nombre, {path: "/"});
                 cookies.set('username', respuesta.username, {path: "/"});
                 alert(`Bienvenid@`);
-                window.location.href="./homepage";
+                window.location.href="./Menu";
             }else{
                 alert('El usuario o la contraseña no son correctos');
             }
@@ -53,7 +53,7 @@ export class Login extends Component /*export function*/ {
 
     componentDidMount() {
         if(cookies.get('username')){
-            /*window.location.href="./Inicio"; */
+            window.location.href="./Menu"; 
             /*lo comente por que me da error al entrar sin iniciar sesion */ 
         }
     }

@@ -46,8 +46,8 @@
 }
 .videoAnterior {
   padding: 20px 100px;
-  border: 2px solid black;
-  top: 92%;
+  border: 2px solid rgb(255, 255, 255);
+  top: 100%;
   left: 5%;
   position: absolute;
   display: flex;
@@ -56,12 +56,15 @@
   border-radius: 5px;
   background-color: rgb(221, 127, 38);
   font-size: 20px;
+
+  font-family: "Butterfly Kids", cursive;
+  color: white;
 }
 
 .videoSiguiente {
   padding: 20px 100px;
-  border: 2px solid black;
-  top: 92%;
+  border: 2px solid rgb(255, 255, 255);
+  top: 100%;
   left: 78%;
   position: absolute;
   display: flex;
@@ -69,6 +72,9 @@
   border-radius: 5px;
   background-color: rgb(221, 127, 38);
   font-size: 20px;
+
+  font-family: "Butterfly Kids", cursive;
+  color: white;
 }
 .botonAtras {
   padding: 15px 50px;
@@ -77,6 +83,12 @@
   position: absolute;
   justify-content: center;
   border-radius: 5px;
+
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(221, 127, 38);
+  font-size: 15px;
+  color: white;
+  font-family: "Butterfly Kids", cursive;
 }
 .video {
   height: 0;
@@ -113,12 +125,12 @@
   text-align: center;
   overflow: hidden;
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .title {
     text-align: center;
     font-size: 30px;
-    top: 20%;
-    margin-top: 10%;
+    /* top: 30%; */
+    margin-top: 16%;
   }
   .botonAtras {
     padding: 10px 30px;
@@ -128,22 +140,33 @@
     justify-content: center;
     border-radius: 5px;
   }
-  .videoSiguiente{
+  .videoSiguiente {
     padding: 10px 50px;
-    left: 50%;
-    top: 65%;
+    left: 600px;
+    top: -40px;
+    position: relative;
   }
-  .videoAnterior{
+  .videoAnterior {
     padding: 10px 50px;
-    top: 65%;
+    top: 75%;
+    position: relative;
   }
   .video iframe,
   .video object,
   .video embed {
-  height: 60%;
-  left: 0;
-  position: absolute;
-  top: 10%;
-  width: 95%;
+    height: 60%;
+    left: 0;
+    position: absolute;
+    top: 10%;
+    width: 95%;
+  }
+  :root {
+    width: 900px;
+  }
+}
+@media (max-width: 570px) {
+  .botonAtras {
+    top: 18%;
+    font-size: 20px;
   }
 }

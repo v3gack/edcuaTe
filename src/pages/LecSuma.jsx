@@ -35,6 +35,13 @@ export function LecSuma(){
         </Link>
         </div>
     </div>
+    <button className = {stylesDiv.botonAtras} onClick ={
+                 ()=>{
+                     history.push("/homepage");
+                 }         
+             }>
+                🠔atrás
+            </button>
      <div className={stylesDiv.LeccionGrid}>
         <div>
           

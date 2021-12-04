@@ -19,7 +19,7 @@ export function JuegoSumaA(){
                      history.push("/LecSNA");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
             
     </div> 

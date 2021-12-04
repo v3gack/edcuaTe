@@ -19,7 +19,7 @@ export function JuegoRestaP(){
                      history.push("/LecRNP");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
             
     </div> 

@@ -19,7 +19,7 @@ export function JuegoMultA(){
                      history.push("/LecMNA");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
             
     </div> 

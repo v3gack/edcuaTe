@@ -19,7 +19,7 @@ export function NADV2(){
                      history.push("/LecDNA");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
             <button className = {styles.videoAnterior} onClick ={
                  ()=>{

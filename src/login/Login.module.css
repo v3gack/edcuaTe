@@ -1,42 +1,51 @@
 .containerPrincipal {
-    position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      border: 1px solid blue;
-      border-radius: 10px;
-      padding: 40px;
-      background-color: white;
-      
-  }
-  
-  .containerSecundario{
-    text-align: center;
-  }
-  .formcontrol{
-    width: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 40px;
+  background-color: white;
+}
 
-  }
-  .btnInicio{
-    background-color: #4391F0;
-    border-radius: 5px;
-    margin-top: 20px;
-    height: 50px;
-  }
-  .atrasContainer{
-    background-color: aqua;
-  }
-  .btnAtras{
-    background-color: white;
-    border-radius: 5px;
-    margin-top: 20px;
-    margin-left: 20px;
-    height: 50px;
-    width: 120px;
-    font-size: larger;
-  }
-  .logoPagina{
-    background-image:url(../images/EducateLOGO.png);
-    background-color: black;
-
-  }
+.containerSecundario {
+  text-align: center;
+}
+.formcontrol {
+  width: 400px;
+}
+.btnInicio {
+  background-color: #4391f0;
+  border-radius: 5px;
+  margin-top: 20px;
+  height: 50px;
+}
+.atrasContainer {
+  background-color: aqua;
+}
+.btnAtras {
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 50px;
+  width: 120px;
+  font-size: larger;
+}
+.logoPagina {
+  background-image: url(../images/EducateLOGO.png);
+  background-color: black;
+}
+.botonCerrar {
+  padding: 15px 50px;
+  color: white;
+  top: 15%;
+  left: 80%;
+  position: absolute;
+  justify-content: center;
+  border-radius: 5px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(221, 127, 38);
+  font-family: "Butterfly Kids", cursive;
+}
