@@ -80,7 +80,7 @@ export function PRS(){
                      history.push("/resta");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
 			<h1 className={styles.tituloP}>RESTA - NIVEL SEMILLA</h1>
         <div className={styles.ap}>

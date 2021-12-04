@@ -80,7 +80,7 @@ export function PSB(){
                      history.push("/LecSNB");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
 			<h1 className={styles.tituloP}>SUMA - NIVEL BROTE</h1>
         <div className={styles.ap}>

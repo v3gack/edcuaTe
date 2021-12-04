@@ -81,7 +81,7 @@ export function PDS(){
                      history.push("/division");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
 			<h1 className={styles.tituloP}>DIVISIÓN - NIVEL SEMILLA</h1>
         <div className={styles.ap}>

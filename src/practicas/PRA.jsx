@@ -80,9 +80,9 @@ export function PRA(){
                      history.push("/LecRNA");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
-			<h1 className={styles.tituloP}>RESTA - NIVEL ARBOL</h1>
+			<h1 className={styles.tituloP}>RESTA - NIVEL ÁRBOL</h1>
         <div className={styles.ap}>
 			{showScore ? (
 				<div className={styles.scoresection}>

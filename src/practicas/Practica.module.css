@@ -9,9 +9,9 @@
   align-items: center;
   border-radius: 10px;
 
-  position: relative;
-  top: 50%;
-  left: -5%;
+  position: absolute;
+  top: 20%;
+  left: 30%;
 }
 .botonAtras {
   position: relative;
@@ -19,7 +19,6 @@
   height: 40px;
   top: 10px;
   left: 40px;
-
   border: 2px solid rgb(255, 255, 255);
   background-color: rgb(221, 127, 38);
   font-size: 15px;
@@ -35,6 +34,7 @@
   padding: 0px 0px 10px 0px;
   height: 50%;
   width: 100%;
+  text-align: center;
 }
 
 .answersection {
@@ -43,17 +43,17 @@
   position: absolute;
   display: flex;
   width: 700px;
-  height: 40px;
+  height: 70px;
   /* top: 10%; */
   color: rgb(250, 183, 0);
   padding: 0px 0px 10px 0px;
-  top: 160%;
+  top: 140%;
   background-color: black;
   background-image: url(../images/astronauta.jpg);
   border-radius: 10px;
   border: 10px solid white;
 
-  left: 15%;
+  left: 5%;
 }
 
 .bt {
@@ -73,10 +73,12 @@
   color: white;
   padding: 5px;
   font-size: 50px;
+  text-align: center;
+  margin-top: 30px;
 }
 .questionsection {
   position: absolute;
-  top: 50%;
+  top: 30%;
   height: 110%;
   width: 700px;
   border-radius: 10px;
@@ -85,11 +87,11 @@
   background-size: cover;
   border: 10px solid white;
 
-  left: 15%;
+  left: 5%;
 }
 .scoresection {
   position: absolute;
-  top: 50%;
+  top: 30%;
   height: 110%;
   width: 700px;
   background-image: url(../images/astronauta.jpg);
@@ -97,7 +99,7 @@
   border: 10px solid white;
   border-radius: 10px;
 
-  left: 130px;
+  left: 5%;
 }
 
 .questioncount {
@@ -113,6 +115,7 @@
   padding: 10px;
   left: 45%;
   width: 45%;
+  top: 0%;
   font-weight: bolder;
   transform: scaleY(2);
   transform: scaleX(1);
@@ -152,6 +155,11 @@
   }
   .botonAtras {
     font-size: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .scoresection {
+    left: 10%;
   }
 }
 @media (max-width: 389px) {

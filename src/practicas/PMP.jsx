@@ -79,7 +79,7 @@ export function PMP(){
                      history.push("/LecMNP");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
 			<h1 className={styles.tituloP}>MULTIPLICACIÓN - NIVEL PLANTA</h1>
         <div className={styles.ap}>

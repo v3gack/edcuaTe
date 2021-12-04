@@ -80,7 +80,7 @@ export function PRB(){
                      history.push("/LecRNB");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
 			<h1 className={styles.tituloP}>RESTA - NIVEL BROTE</h1>
         <div className={styles.ap}>

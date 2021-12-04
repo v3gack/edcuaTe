@@ -80,9 +80,9 @@ export function PDA(){
                      history.push("/LecDNA");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
-			<h1 className={styles.tituloP}>DIVISIÓN - NIVEL Arbol</h1>
+			<h1 className={styles.tituloP}>DIVISIÓN - NIVEL ÁRBOL</h1>
         <div className={styles.ap}>
 			{showScore ? (
 				<div className={styles.scoresection}>

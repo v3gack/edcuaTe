@@ -26,10 +26,10 @@
 @media (max-width: 400px) {
   .LeccionGrid {
     grid-template-columns: none;
-    gap: 0px;
+    gap: 40px;
     padding: 0px;
   }
   .ImgStyle {
-    width: 300px;
+    width: 400px;
   }
 }

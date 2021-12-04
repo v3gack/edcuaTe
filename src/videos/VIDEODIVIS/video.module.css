@@ -125,6 +125,12 @@
   text-align: center;
   overflow: hidden;
 }
+@media (max-width: 1090px) {
+  .botonAtras {
+    top: 12%;
+    left: 5%;
+  }
+}
 @media (max-width: 800px) {
   .title {
     text-align: center;

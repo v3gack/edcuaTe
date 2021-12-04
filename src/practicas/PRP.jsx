@@ -80,7 +80,7 @@ export function PRP(){
                      history.push("/LecRNP");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
 			<h1 className={styles.tituloP}>RESTA - NIVEL PLANTA</h1>
         <div className={styles.ap}>

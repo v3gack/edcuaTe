@@ -80,7 +80,7 @@ export function PDB(){
                      history.push("/LecDNB");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
 			<h1 className={styles.tituloP}>DIVISIÓN - NIVEL BROTE</h1>
         <div className={styles.ap}>

@@ -80,7 +80,7 @@ export function PMS(){
                      history.push("/multiplicacion");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
 			<h1 className={styles.tituloP}>MULTIPLICACIÓN - NIVEL SEMILLA</h1>
         <div className={styles.ap}>

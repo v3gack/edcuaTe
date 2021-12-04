@@ -80,7 +80,7 @@ export function PSS(){
                      history.push("/suma");
                  }         
              }>
-                🠔atras
+                🠔atrás
             </button>
 			<h1 className={styles.tituloP}>SUMA - NIVEL SEMILLA</h1>
         <div className={styles.ap}>
