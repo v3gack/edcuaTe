@@ -79,6 +79,14 @@
     top: 550px;
     position: absolute;
   }
+} 
+@media (max-width: 860px){
+  .btAdmin{
+    top: 590px;
+  }
+  .btt{
+    top :590px;
+  }
 }
 @media (max-width: 750px) {
   .astronauta {
@@ -108,7 +116,12 @@
     font-size: 50px;
   }
 }
-@media (max-width: 580px) {
+@media (max-width: 588px){
+  .texto2{
+    font-size: 6vw;
+  }
+}
+@media (max-width: 576px) {
   .astronauta {
     width: auto;
     height: 100%;
@@ -123,21 +136,21 @@
   .btt {
     padding: 20px;
     left: 20%;
-    top: 750px;
+    top: 800px;
     position: absolute;
   }
   .btAdmin {
     padding: 20px;
     font-size: 20px;
     left: 100%;
-    top: 750px;
+    top: 800px;
     position: absolute;
   }
   h1 {
     font-size: 40px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 495px) {
   .astronauta {
     width: auto;
     height: 100%;

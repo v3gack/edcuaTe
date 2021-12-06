@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Cookies from 'universal-cookie';
 import styles from "./Login.module.css";
 const cookies = new Cookies();
@@ -27,7 +28,7 @@ class Menu extends Component {
         console.log('username: '+cookies.get('username'));
         return (
             <div>
-                
+                <Link className={styles.btlink}to="./create">Subir Material</Link>
 
                 <br />
                 <button className = {styles.botonCerrar} onClick={()=>this.cerrarSesion()}>Cerrar Sesión</button>

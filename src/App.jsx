@@ -111,6 +111,10 @@ import {PMA} from "./practicas/PMA";
 import {Login} from "./login/Login";
 import  Menu  from "./login/Menu";
 
+import Material from "./components/Material";
+import CrearMaterial  from "./components/CrearMaterial";
+import CreateNote from "./components/CrearMaterial";
+import Notes from "./components/ListaMat";
 
 export function App() {
   return (
@@ -426,6 +430,14 @@ export function App() {
           <Route path = "/Menu">
             <Menu/>
           </Route>
+          <Route path= "/create">
+            <CreateNote/>
+          </Route>
+          <Route path="/notes">
+            <Notes/>
+          </Route>
+
+          
 
 
           <Route path="/">

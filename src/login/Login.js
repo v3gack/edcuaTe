@@ -6,7 +6,7 @@ import Cookies from 'universal-cookie';
 import styles from "./Login.module.css";
 import { useHistory } from "react-router";
 
-const baseUrl="http://localhost:3001/usuarios";
+const baseUrl="http://localhost:3002/usuarios";
 const cookies = new Cookies();
 
 
@@ -39,7 +39,7 @@ export class Login extends Component /*export function*/ {
                 cookies.set('apellido_materno', respuesta.apellido_materno, {path: "/"});
                 cookies.set('nombre', respuesta.nombre, {path: "/"});
                 cookies.set('username', respuesta.username, {path: "/"});
-                alert(`Bienvenid@`);
+                alert(`Bienvenid@ ${respuesta.nombre}`);
                 window.location.href="./Menu";
             }else{
                 alert('El usuario o la contraseña no son correctos');
@@ -63,7 +63,7 @@ export class Login extends Component /*export function*/ {
         
         return (  
      <div> 
-      <button className={styles.btnAtras} onClick={()=>  window.location.href="./"}>atrás</button>                   
+      <button className={styles.btnAtras} onClick={()=>  window.location.href="./"}>🠔atrás</button>                   
     <div className={styles.containerPrincipal}>
         
         <div className={styles.containerSecundario}>

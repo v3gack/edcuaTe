@@ -3,6 +3,7 @@ import suma from "../images/suma.png";
 import resta from "../images/resta.png";
 import multiplicacion from "../images/multiplicacion.png";
 import division from "../images/division.png";
+import material from "../images/material.png";
 import stylesLG from "./HomePage.module.css";
 import { Link } from "react-router-dom";
 export function HomePage() {
@@ -26,6 +27,11 @@ export function HomePage() {
       <li>
         <Link to="/division">
           <img className={stylesLG.ImgStyle} src={division} alt="Division" />
+        </Link>
+      </li>
+      <li>
+        <Link to="/notes">
+          <img className={stylesLG.ImgStyle} src={material} alt="Material"/>
         </Link>
       </li>
     </ul>
