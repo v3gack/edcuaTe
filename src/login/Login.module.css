@@ -25,7 +25,10 @@
   background-color: aqua;
 }
 .btnAtras {
-  background-color: white;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(221, 127, 38);
+  font-family: "Butterfly Kids", cursive;
+  color: white;
   border-radius: 5px;
   margin-top: 20px;
   margin-left: 20px;
@@ -48,4 +51,47 @@
   border: 2px solid rgb(255, 255, 255);
   background-color: rgb(221, 127, 38);
   font-family: "Butterfly Kids", cursive;
+}
+@media (max-width: 700px) {
+  .containerPrincipal {
+    left: 60%;
+  }
+  .botonCerrar {
+    left: 110%;
+  }
+}
+@media (max-width: 630px) {
+  .containerPrincipal {
+    left: 80%;
+  }
+}
+@media (max-width: 540px) {
+  .botonCerrar {
+    left: 130%;
+  }
+}
+@media (max-width: 430px) {
+  .containerPrincipal {
+    left: 100%;
+  }
+  .btnAtras {
+    font-size: 30px;
+  }
+  .botonCerrar {
+    left: 160%;
+    font-size: 30px;
+  }
+}
+@media (max-width: 360px) {
+  .containerPrincipal {
+    left: 130%;
+  }
+  .botonCerrar {
+    left: 200%;
+  }
+}
+@media (max-width: 310px) {
+  .botonCerrar {
+    left: 230%;
+  }
 }

@@ -39,7 +39,7 @@ export class Login extends Component /*export function*/ {
                 cookies.set('apellido_materno', respuesta.apellido_materno, {path: "/"});
                 cookies.set('nombre', respuesta.nombre, {path: "/"});
                 cookies.set('username', respuesta.username, {path: "/"});
-                alert(`Bienvenid@`);
+                alert(`Bienvenido ${respuesta.nombre}` );
                 window.location.href="./Menu";
             }else{
                 alert('El usuario o la contraseña no son correctos');
@@ -63,7 +63,7 @@ export class Login extends Component /*export function*/ {
         
         return (  
      <div> 
-      <button className={styles.btnAtras} onClick={()=>  window.location.href="./"}>atrás</button>                   
+      <button className={styles.btnAtras} onClick={()=>  window.location.href="./"}>🠔atrás</button>                   
     <div className={styles.containerPrincipal}>
         
         <div className={styles.containerSecundario}>
