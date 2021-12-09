@@ -28,7 +28,7 @@ class Menu extends Component {
         console.log('username: '+cookies.get('username'));
         return (
             <div>
-                <Link className={styles.btlink}to="./create">Subir Material</Link>
+                <Link className={styles.btlink}to="./create">Agregar Material</Link>
 
                 <br />
                 <button className = {styles.botonCerrar} onClick={()=>this.cerrarSesion()}>Cerrar Sesión</button>
