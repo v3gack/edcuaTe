@@ -41,7 +41,7 @@ function CreateNote(){
         alertaError();
        
 
-       else if(input.title.length >= 4 && input.description.length>=10 && input.link.length>=20 && /^(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?$/.test(input.link) ){
+       }else if(input.title.length >= 4 && input.description.length>=10 && input.link.length>=20 && /^(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?$/.test(input.link) ){
         
 
         mostrarAlerta();
@@ -53,7 +53,7 @@ function CreateNote(){
         }
         axios.post('http://localhost:3001/create', newNote)
 
-       }
+       
 
         }else{
             alertaError();
