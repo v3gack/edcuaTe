@@ -20,7 +20,10 @@ function Notes(){
             {notes.map(note =><div className={stylesLG.admin}>
                 <h1 className={stylesLG.titmat}>Material: {note.title}</h1>
                 <h2>Descripción: {note.description}</h2>
+
+
                 <h3>Link de Documento: <a href={note.link} target="_blank" >presione aqui </a></h3>
+
             </div>
 
             )}
