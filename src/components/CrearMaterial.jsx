@@ -12,7 +12,9 @@ function CreateNote(){
     const alertaError = () =>{
         swal({
             title: "ERROR",
-            text: "No se pudo subir el archivo",
+
+            text: "no se pudo subir el archivo debido a que los campos llenados no cumplen con los requisitos",
+
             icon: "error" 
         });
     }
@@ -38,8 +40,10 @@ function CreateNote(){
        if( /[!@"*-_#$%&\/()]/.test(input.title)){
         alertaError();
        
-       }else if(input.title.length >= 4 && input.description.length>=10 && input.link.length>=20){
-        alertaError();
+
+       else if(input.title.length >= 4 && input.description.length>=10 && input.link.length>=20 && /^(ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?$/.test(input.link) ){
+        
+
         mostrarAlerta();
         event.preventDefault();
         const newNote ={
@@ -48,7 +52,13 @@ function CreateNote(){
             link: input.link
         }
         axios.post('http://localhost:3001/create', newNote)
+
        }
+
+        }else{
+            alertaError();
+        }
+
     }
    
     return (<div >
