@@ -28,7 +28,11 @@ export function PRB(){
 			answerOptions: [
 				{ answerText: '60', isCorrect: true },
 				{ answerText: '70', isCorrect: false },
+
+				{ answerText: '24', isCorrect: false },
+
 				{ answerText: '40', isCorrect: false },
+
 				{ answerText: '50', isCorrect: false },
 			],
 		},
@@ -93,7 +97,7 @@ export function PRB(){
 				<>
 					<div className={styles.questionsection}>
 						<div className={styles.questioncount}>
-							<h1 className={styles.titulo}>Pregunta {currentQuestion + 1}-{questions.length}</h1>	
+							<h1 className={styles.titulo}>Pregunta {currentQuestion + 1}/{questions.length}</h1>	
 						</div>
 						<div className={styles.questiontext}>{questions[currentQuestion].questionText}</div>
 					</div>

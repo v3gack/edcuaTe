@@ -18,7 +18,11 @@ export function PDB(){
 			questionText: '21÷3',
 			answerOptions: [
 				{ answerText: '7', isCorrect: true },
+
+				{ answerText: '9', isCorrect: false },
+
 				{ answerText: '5', isCorrect: false },
+
 				{ answerText: '4', isCorrect: false },
 				{ answerText: '3', isCorrect: false },
 			],
@@ -93,7 +97,7 @@ export function PDB(){
 				<>
 					<div className={styles.questionsection}>
 						<div className={styles.questioncount}>
-							<h1 className={styles.titulo}>Pregunta {currentQuestion + 1}-{questions.length}</h1>	
+							<h1 className={styles.titulo}>Pregunta {currentQuestion + 1}/{questions.length}</h1>	
 						</div>
 						<div className={styles.questiontext}>{questions[currentQuestion].questionText}</div>
 					</div>

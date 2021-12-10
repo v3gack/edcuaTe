@@ -7,20 +7,10 @@ export function Inicio() {
   let history = useHistory();
   return (
     <div>
-      <h1>
+      <h1 className = {styleInicio.tit}>
         EducaTe <br />
-        Matematicas de 1er Grado
+        Matemáticas de 1er Grado
       </h1>
-      {/* <pre>esto es una prueba
-                erwe
-            </pre> */}
-      {/* <button className = {styleInicio.btt} onClick ={
-                 ()=>{
-                     history.push("/homepage");
-                 }         
-             }>
-                Inicio sin Sesión
-            </button> */}
       <div className={styleInicio.texto}>
         <img className={styleInicio.astronauta} src={Astro} alt="Astronauta" />
 
@@ -36,8 +26,17 @@ export function Inicio() {
           history.push("/homepage");
         }}
       >
-        Inicio sin Sesión
+        Aprende
       </button>
+
+      <button
+        className={styleInicio.btAdmin}
+        onClick={() => {
+          history.push("/Login");
+        }}
+      >
+        Subir Material
+      </button>      
     </div>
   );
 }

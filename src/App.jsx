@@ -107,7 +107,14 @@ import {PMS} from "./practicas/PMS";
 import {PMB} from "./practicas/PMB";
 import {PMP} from "./practicas/PMP";
 import {PMA} from "./practicas/PMA";
+/* Login */
+import {Login} from "./login/Login";
+import  Menu  from "./login/Menu";
 
+import Material from "./components/Material";
+import CrearMaterial  from "./components/CrearMaterial";
+import CreateNote from "./components/CrearMaterial";
+import Notes from "./components/ListaMat";
 
 export function App() {
   return (
@@ -414,6 +421,24 @@ export function App() {
           <Route path = "/PMP">
             <PMP/>
           </Route>
+
+          {/* Login */}
+          <Route path = "/Login">
+            <Login/>
+          </Route>
+
+          <Route path = "/Menu">
+            <Menu/>
+          </Route>
+          <Route path= "/create">
+            <CreateNote/>
+          </Route>
+          <Route path="/notes">
+            <Notes/>
+          </Route>
+
+          
+
 
           <Route path="/">
             <Inicio/>
