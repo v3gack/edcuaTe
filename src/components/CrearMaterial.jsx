@@ -2,12 +2,27 @@ import React, {useState} from "react";
 import axios from 'axios';
 //import 'bootstrap/dist/css/bootstrap.min.css';
 import stylesLG from "./HomePage.module.css";
+import swal from 'sweetalert';
 function CreateNote(){
     const [input, setInput] = useState({
         title: '',
         description: '',
         link: ''
     })
+    const alertaError = () =>{
+        swal({
+            title: "ERROR",
+            text: "No se pudo subir el archivo",
+            icon: "error" 
+        });
+    }
+    const mostrarAlerta = () =>{
+        swal({
+            title: "AGREGADO",
+            text: "Se agrego con exito",
+            icon: "success"  
+        });
+    }
     function handleChange(event){
         const {name, value} = event.target;
 
@@ -19,6 +34,13 @@ function CreateNote(){
         })
     }
     function handleClick(event){
+        
+       if( /[!@"*-_#$%&\/()]/.test(input.title)){
+        alertaError();
+       
+       }else if(input.title.length >= 4 && input.description.length>=10 && input.link.length>=20){
+        alertaError();
+        mostrarAlerta();
         event.preventDefault();
         const newNote ={
             title: input.title,
@@ -26,19 +48,21 @@ function CreateNote(){
             link: input.link
         }
         axios.post('http://localhost:3001/create', newNote)
+       }
     }
+   
     return (<div >
         <h1 className={stylesLG.titulo}>Crear Material</h1>
         <div className={stylesLG.formu}>
             <form >
                 <div className={stylesLG.espacio}>
-                    <input onChange={handleChange} name="title" value={input.title}autoComplete="off" placeholder="Título" maxLength="15" minLength="4"></input>
+                    <input onChange={handleChange} name="title" value={input.title}autoComplete="off" data-validation="alphanumeric" placeholder="Título" maxLength="20" minLength="4" pattern="[A-Za-z0-9_-]" ></input>
                 </div>
                 <div className={stylesLG.espacio}>
-                    <textarea onChange={handleChange} name="description" value={input.description} autoComplete="off" placeholder="Descripción" maxLength="50" minLength="10"></textarea>
+                    <textarea onChange={handleChange} name="description" value={input.description} autoComplete="off" placeholder="Descripción" maxLength="50" minLength="10" ></textarea>
                 </div>
                 <div className={stylesLG.espacio}>
-                    <input type="url" onChange={handleChange} name="link" value={input.link} autoComplete="off" placeholder="Enlace del documento"></input>
+                    <input type="url" onChange={handleChange} name="link" pattern=".+\.com" value={input.link} autoComplete="off" placeholder="Enlace del documento"></input>
                 </div>
 
                 <button type="submit" className={stylesLG.boton} onClick={handleClick} >Enviar</button>
